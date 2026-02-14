@@ -1,12 +1,7 @@
-# DDO Builder V2 - only sync build files
-DataFiles/
-Example Builds/
-*.exe
-*.chm
-*.ini
-*.dll
-*.log
-wget.exe
+# DDO Builder V2 - ignore everything except build files
+*
 
-# Keep only build files
-# *.DDOBuild and *.DDOBuild.backup are tracked
+# Allow build files
+!.gitignore
+!*.DDOBuild
+!*.DDOBuild.backup
