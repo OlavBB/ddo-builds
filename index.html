@@ -12,8 +12,7 @@
   --accent2:#533483;--gold:#d4a017;--card:#1e2a4a;
   --border:#2a3a5a;--green:#4caf50;--blue:#5c9ded;
 }
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
-a{color:var(--blue);text-decoration:none}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px}
 .header{background:var(--bg2);border-bottom:2px solid var(--accent);padding:12px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
 .header h1{font-size:1.2rem;color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .header .back{display:none;background:none;border:none;color:var(--accent);font-size:1.4rem;cursor:pointer;padding:4px 8px;flex-shrink:0}
@@ -34,13 +33,12 @@ a{color:var(--blue);text-decoration:none}
 .loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .error{text-align:center;padding:40px;color:var(--accent)}
-.view{display:none}
-.view.active{display:block}
+.empty-msg{color:var(--text2);font-style:italic;font-size:.85rem;padding:4px 0}
+.view{display:none}.view.active{display:block}
 .detail-header{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px}
 .detail-header h2{color:var(--gold);font-size:1.3rem;margin-bottom:8px}
 .detail-header .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:.9rem}
-.detail-header .info-grid .label{color:var(--text2)}
-.detail-header .info-grid .value{color:var(--text)}
+.detail-header .label{color:var(--text2)}.detail-header .value{color:var(--text)}
 .detail-header .classes-summary{margin-top:10px;font-size:1rem;color:var(--blue);font-weight:600}
 .section{background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:10px;overflow:hidden}
 .section-header{padding:12px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
@@ -48,33 +46,44 @@ a{color:var(--blue);text-decoration:none}
 .section-header h3{font-size:.95rem;color:var(--accent)}
 .section-header .arrow{color:var(--text2);transition:transform .2s;font-size:.8rem}
 .section-header .arrow.open{transform:rotate(90deg)}
-.section-body{padding:0 14px 14px;display:none}
-.section-body.open{display:block}
-.feat-group{margin-bottom:10px}
-.feat-group h4{font-size:.85rem;margin-bottom:4px;color:var(--gold)}
-.feat-list{list-style:none;font-size:.85rem}
-.feat-list li{padding:2px 0;color:var(--text)}
-.feat-list .feat-type{color:var(--text2);font-size:.8rem;margin-left:6px}
-.tree-name{color:var(--blue);font-size:.9rem;padding:3px 0}
-.ability-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.ability-box{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:8px;text-align:center}
-.ability-box .name{font-size:.75rem;color:var(--text2);text-transform:uppercase}
-.ability-box .spend{font-size:1.1rem;font-weight:700;color:var(--gold)}
-.ability-box .tome{font-size:.75rem;color:var(--green)}
-.level-row{display:flex;align-items:baseline;gap:8px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.85rem}
-.level-row:last-child{border-bottom:none}
-.level-num{color:var(--text2);min-width:28px;font-size:.8rem}
-.level-class{color:var(--blue);min-width:90px}
-.level-feats{color:var(--text);flex:1}
-.level-feats span{background:var(--bg2);padding:1px 6px;border-radius:3px;margin:1px 2px;display:inline-block;font-size:.8rem}
-.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px 16px;font-size:.85rem}
-.skill-row{display:flex;justify-content:space-between;padding:2px 0}
-.skill-name{color:var(--text2)}
-.skill-val{color:var(--text);font-weight:500}
-.levelup-row{display:flex;justify-content:space-between;padding:2px 0;font-size:.85rem}
-.levelup-label{color:var(--text2)}
-.levelup-val{color:var(--gold)}
-.empty-msg{color:var(--text2);font-style:italic;font-size:.85rem;padding:4px 0}
+.section-body{padding:0 14px 14px;display:none}.section-body.open{display:block}
+.ab-tbl{width:100%;border-collapse:collapse;font-size:.9rem}
+.ab-tbl th{text-align:left;color:var(--text2);font-weight:400;padding:3px 8px;border-bottom:1px solid var(--border)}
+.ab-tbl td{padding:3px 8px}
+.ab-tbl .an{color:var(--text);font-weight:600;width:45px}
+.ab-tbl .av{color:var(--gold);text-align:center}
+.ab-tbl .at{color:var(--green);text-align:center}
+.ab-tbl .al{color:var(--blue);text-align:center}
+.lv-row{display:flex;align-items:baseline;gap:6px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.85rem}
+.lv-row:last-child{border-bottom:none}
+.lv-n{color:var(--text2);min-width:26px;font-weight:600;font-size:.8rem}
+.lv-c{color:var(--blue);min-width:100px}
+.lv-f{flex:1;line-height:1.6}
+.lv-f .ft{display:inline-block;margin:1px 2px}
+.ft-t{color:var(--green);font-size:.8rem}
+.ft-n{color:var(--accent)}
+.ft-lu{color:var(--gold);font-style:italic}
+.tb{margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.tb:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.tb-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.tb-h .tn{color:var(--green);font-weight:600;font-size:.95rem}
+.tb-h .tp{color:var(--text2);font-size:.8rem}
+.ei{padding:2px 0 2px 12px;font-size:.85rem;border-left:2px solid var(--border)}
+.ei.t5{border-left-color:var(--accent)}
+.ei .en{color:var(--text)}.ei .es{color:var(--gold);margin-left:4px}
+.ei .er{color:var(--text2);margin-left:4px}
+.ei.t5 .en{color:var(--accent)}
+.pl-g{margin-bottom:10px}
+.pl-g h4{font-size:.85rem;color:var(--accent);margin-bottom:3px;border-bottom:1px solid var(--border);padding-bottom:3px}
+.pl-i{font-size:.85rem;padding:1px 0 1px 8px}
+.fg{margin-bottom:10px}
+.fg h4{font-size:.85rem;margin-bottom:4px;color:var(--gold)}
+.fl{list-style:none;font-size:.85rem}
+.fl li{padding:2px 0}
+.fl .ft2{color:var(--text2);font-size:.8rem;margin-left:6px}
+.sg{display:grid;grid-template-columns:repeat(2,1fr);gap:2px 16px;font-size:.85rem}
+.sr{display:flex;justify-content:space-between;padding:2px 0}
+.sn{color:var(--text2)}.sv{color:var(--text);font-weight:500}
 </style>
 </head>
 <body>
@@ -84,18 +93,11 @@ a{color:var(--blue);text-decoration:none}
 </div>
 <div class="container">
   <div class="view active" id="fileListView">
-    <div class="loading" id="loading">
-      <div class="spinner"></div>
-      <p style="margin-top:12px">Loading builds...</p>
-    </div>
+    <div class="loading" id="loading"><div class="spinner"></div><p style="margin-top:12px">Loading builds...</p></div>
     <div class="card-list" id="fileList"></div>
   </div>
-  <div class="view" id="livesView">
-    <div class="card-list" id="livesList"></div>
-  </div>
-  <div class="view" id="buildsView">
-    <div class="card-list" id="buildsList"></div>
-  </div>
+  <div class="view" id="livesView"><div class="card-list" id="livesList"></div></div>
+  <div class="view" id="buildsView"><div class="card-list" id="buildsList"></div></div>
   <div class="view" id="detailView"></div>
 </div>
 <script>
@@ -153,14 +155,12 @@ function renderFileList() {
       } else {
         const lives = r.xml.querySelectorAll('Character > Life');
         const liveCount = lives.length;
-        // Use first life for summary
         const life = lives[0];
         const name = life ? gt(life, 'Name') : '';
         const race = life ? gt(life, 'Race') : '';
         const firstBuild = life ? life.querySelector(':scope > Build') : null;
         const level = firstBuild ? gt(firstBuild, 'Level') : '?';
         const classLine = firstBuild ? getClassLine(firstBuild) : '';
-
         card.innerHTML = '<h2>' + esc(name || cleanName(r.file))
           + (liveCount > 1 ? '<span class="badge badge-lives">' + liveCount + ' lives</span>' : '')
           + '</h2>'
@@ -187,22 +187,18 @@ function openFile(file, xml) {
   const lives = xml.querySelectorAll('Character > Life');
   if (lives.length === 0) return;
   if (lives.length === 1) {
-    // Single life — check builds
     const life = lives[0];
     const builds = life.querySelectorAll(':scope > Build');
     if (builds.length <= 1) {
-      // Single life, single build — straight to detail
       navStack.push({ view: '#fileListView', title: 'DDO Builds' });
       renderDetail(xml, life, builds[0] || life, file);
       showView('#detailView', gt(life, 'Name') || cleanName(file));
     } else {
-      // Single life, multiple builds
       navStack.push({ view: '#fileListView', title: 'DDO Builds' });
       renderBuildsList(xml, life, builds, file);
       showView('#buildsView', gt(life, 'Name') || cleanName(file));
     }
   } else {
-    // Multiple lives
     navStack.push({ view: '#fileListView', title: 'DDO Builds' });
     renderLivesList(xml, lives, file);
     showView('#livesView', cleanName(file));
@@ -221,7 +217,6 @@ function renderLivesList(xml, lives, file) {
     const level = firstBuild ? gt(firstBuild, 'Level') : '?';
     const classLine = firstBuild ? getClassLine(firstBuild) : '';
     const label = name || (i === 0 ? 'Current Life' : 'Life ' + (i + 1));
-
     const card = document.createElement('div');
     card.className = 'build-card';
     card.innerHTML = '<h2>' + esc(label)
@@ -258,7 +253,6 @@ function renderBuildsList(xml, life, builds, file) {
     const level = gt(build, 'Level');
     const classLine = getClassLine(build);
     const label = i === 0 ? 'Current Build' : 'Past Build ' + i;
-
     const card = document.createElement('div');
     card.className = 'build-card';
     card.innerHTML = '<h2>' + esc(label)
@@ -269,7 +263,7 @@ function renderBuildsList(xml, life, builds, file) {
     card.onclick = ((idx) => () => {
       navStack.push({ view: '#buildsView', title: lifeName });
       renderDetail(xml, life, builds[idx], file);
-      showView('#detailView', lifeName + ' — ' + (idx === 0 ? 'Current' : 'Build ' + (idx + 1)));
+      showView('#detailView', lifeName + ' \u2014 ' + (idx === 0 ? 'Current' : 'Build ' + (idx + 1)));
     })(i);
     listEl.appendChild(card);
   }
@@ -288,174 +282,225 @@ function getClassLine(build) {
   return order.map(c => c + ' ' + counts[c]).join(' / ');
 }
 function renderDetail(xml, life, build, file) {
-  const char = xml.querySelector('Character');
-  const name = gt(life, 'Name') || cleanName(file);
-  const race = gt(life, 'Race');
-  const alignment = gt(life, 'Alignment');
-  const level = gt(build, 'Level');
+  const ch = xml.querySelector('Character');
+  const name = gt(life,'Name') || cleanName(file);
+  const race = gt(life,'Race');
+  const alignment = gt(life,'Alignment');
+  const level = gt(build,'Level');
   const classLine = getClassLine(build);
+  let h = '<div class="detail-header"><h2>' + esc(name) + '</h2><div class="info-grid">'
+    + '<span class="label">Race</span><span class="value">' + esc(race) + '</span>'
+    + '<span class="label">Alignment</span><span class="value">' + esc(alignment) + '</span>'
+    + '<span class="label">Level</span><span class="value">' + esc(level) + '</span>'
+    + '</div><div class="classes-summary">' + esc(classLine) + '</div></div>';
 
-  let html = '';
-  html += '<div class="detail-header">';
-  html += '<h2>' + esc(name) + '</h2>';
-  html += '<div class="info-grid">';
-  html += '<span class="label">Race</span><span class="value">' + esc(race) + '</span>';
-  html += '<span class="label">Alignment</span><span class="value">' + esc(alignment) + '</span>';
-  html += '<span class="label">Level</span><span class="value">' + esc(level) + '</span>';
-  html += '</div>';
-  html += '<div class="classes-summary">' + esc(classLine) + '</div>';
-  html += '</div>';
-
-  html += makeSection('Ability Point Spend', () => {
-    const spend = build.querySelector('AbilitySpend');
-    if (!spend) return '<div class="empty-msg">No ability data</div>';
+  // Abilities — forum export style table
+  h += makeSection('Abilities', () => {
+    const sp = build.querySelector('AbilitySpend');
+    if (!sp) return '<div class="empty-msg">No ability data</div>';
+    const p2s = {0:8,1:9,2:10,3:11,4:12,5:13,6:14,8:15,10:16,13:17,16:18};
     const abs = [
-      { n:'STR', s:'StrSpend', t:'StrTome' },
-      { n:'DEX', s:'DexSpend', t:'DexTome' },
-      { n:'CON', s:'ConSpend', t:'ConTome' },
-      { n:'INT', s:'IntSpend', t:'IntTome' },
-      { n:'WIS', s:'WisSpend', t:'WisTome' },
-      { n:'CHA', s:'ChaSpend', t:'ChaTome' },
+      {n:'Str',f:'Strength',s:'StrSpend',t:'StrTome'},
+      {n:'Dex',f:'Dexterity',s:'DexSpend',t:'DexTome'},
+      {n:'Con',f:'Constitution',s:'ConSpend',t:'ConTome'},
+      {n:'Int',f:'Intelligence',s:'IntSpend',t:'IntTome'},
+      {n:'Wis',f:'Wisdom',s:'WisSpend',t:'WisTome'},
+      {n:'Cha',f:'Charisma',s:'ChaSpend',t:'ChaTome'}
     ];
-    const avail = gt(spend, 'AvailableSpend') || '?';
-    let s = '<div style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Point buy: ' + esc(avail) + '</div>';
-    s += '<div class="ability-grid">';
-    abs.forEach(a => {
-      const pts = gt(spend, a.s) || '0';
-      const tome = char ? gt(char, a.t) : '0';
-      s += '<div class="ability-box"><div class="name">' + a.n + '</div><div class="spend">' + pts + '</div>';
-      if (tome && tome !== '0') s += '<div class="tome">+' + tome + ' tome</div>';
-      s += '</div>';
+    const lu = {};
+    [4,8,12,16,20,24,28,32,36,40].forEach(lv => {
+      const el = build.querySelector('Level'+lv);
+      if (el&&el.textContent) { const a=el.textContent.trim(); lu[a]=(lu[a]||0)+1; }
     });
-    s += '</div>';
-    return s;
+    let s = '<div style="font-size:.8rem;color:var(--text2);margin-bottom:6px">'
+      + esc(gt(sp,'AvailableSpend')||'?') + '-point build</div>';
+    s += '<table class="ab-tbl"><tr><th></th><th>Start</th><th>Tome</th><th>Lvl-ups</th></tr>';
+    abs.forEach(a => {
+      const pts = parseInt(gt(sp,a.s))||0;
+      const sc = p2s[pts]!==undefined ? p2s[pts] : 8;
+      const tm = ch ? gt(ch,a.t) : '0';
+      const lc = lu[a.f]||0;
+      s += '<tr><td class="an">'+a.n+'</td><td class="av">'+sc+'</td>'
+        + '<td class="at">'+(tm!=='0'&&tm?'+'+tm:'-')+'</td>'
+        + '<td class="al">'+(lc>0?'+'+lc:'-')+'</td></tr>';
+    });
+    return s + '</table>';
   }, true);
 
-  html += makeSection('Level-Up Ability Increases', () => {
-    const lvls = [4,8,12,16,20,24,28,32,36,40];
-    let s = '', any = false;
-    lvls.forEach(lv => {
-      const el = build.querySelector('Level' + lv);
-      if (el && el.textContent) {
-        any = true;
-        s += '<div class="levelup-row"><span class="levelup-label">Level ' + lv + '</span><span class="levelup-val">' + esc(el.textContent) + '</span></div>';
+  // Past Lives
+  h += makeSection('Past Lives', () => {
+    const pls = [];
+    for (const f of life.querySelectorAll('SpecialFeats > TrainedFeat')) {
+      const fn=gt(f,'FeatName'),ft=gt(f,'Type');
+      if (fn&&ft&&ft.includes('PastLife')) pls.push({name:fn,type:ft});
+    }
+    if (ch) {
+      for (const f of ch.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
+        const fn=gt(f,'FeatName'),ft=gt(f,'Type');
+        if (fn&&ft&&ft.includes('PastLife')&&!pls.some(x=>x.name===fn&&x.type===ft)) pls.push({name:fn,type:ft});
       }
-    });
-    return any ? s : '<div class="empty-msg">None</div>';
+    }
+    if (!pls.length) return '<div class="empty-msg">No past lives</div>';
+    const grp = {};
+    pls.forEach(p => { if(!grp[p.type])grp[p.type]=[]; grp[p.type].push(p.name); });
+    const labels = {'HeroicPastLife':'Heroic Past Lives','EpicPastLife':'Epic Past Lives',
+      'IconicPastLife':'Iconic Past Lives','RacialPastLife':'Racial Past Lives'};
+    let s = '';
+    for (const [type,names] of Object.entries(grp)) {
+      const cnt = {};
+      names.forEach(n => cnt[n]=(cnt[n]||0)+1);
+      s += '<div class="pl-g"><h4>' + esc(labels[type]||type) + '</h4>';
+      for (const [n,c] of Object.entries(cnt))
+        s += '<div class="pl-i">' + esc(n) + (c>1?' ('+c+')':'') + '</div>';
+      s += '</div>';
+    }
+    return s;
   });
 
-  html += makeSection('Level Progression', () => {
+  // Level Progression — forum export style with class counts and colored feat types
+  h += makeSection('Level Progression', () => {
     const levels = build.querySelectorAll('LevelTraining');
     if (!levels.length) return '<div class="empty-msg">No level data</div>';
+    const cc = {};
     let s = '', n = 1;
     for (const lt of levels) {
-      const cls = gt(lt, 'Class');
+      const cls = gt(lt,'Class');
+      if (cls!=='Epic'&&cls!=='Legendary') cc[cls]=(cc[cls]||0)+1;
+      const cl = cls + (cls!=='Epic'&&cls!=='Legendary'?'('+cc[cls]+')':'');
       let fh = '';
       for (const f of lt.querySelectorAll('TrainedFeat')) {
-        const fn = gt(f, 'FeatName'), ft = gt(f, 'Type');
-        if (fn) fh += '<span title="' + esc(ft) + '">' + esc(fn) + '</span> ';
+        const fn=gt(f,'FeatName'),ft=gt(f,'Type');
+        if (!fn) continue;
+        fh += '<span class="ft"><span class="ft-t">'+esc(ft)+':</span> <span class="ft-n">'+esc(fn)+'</span></span> ';
       }
-      s += '<div class="level-row"><span class="level-num">' + n + '</span><span class="level-class">' + esc(cls) + '</span><span class="level-feats">' + fh + '</span></div>';
+      if ([4,8,12,16,20,24,28,32,36,40].includes(n)) {
+        const el = build.querySelector('Level'+n);
+        if (el&&el.textContent) fh += '<span class="ft ft-lu">'+esc(el.textContent.trim())+' +1</span> ';
+      }
+      s += '<div class="lv-row"><span class="lv-n">'+n+'</span><span class="lv-c">'+esc(cl)+'</span><span class="lv-f">'+fh+'</span></div>';
       n++;
     }
     return s;
   }, true);
 
-  html += makeSection('All Feats by Type', () => {
+  // Enhancement Trees — with individual abilities
+  h += makeSection('Enhancements', () => renderTrees(build,'Enhancement'), true);
+  h += makeSection('Epic Destinies', () => renderTrees(build,'Destiny'));
+  h += makeSection('Reaper Trees', () => renderTrees(build,'Reaper'));
+
+  // All Feats by Type
+  h += makeSection('All Feats by Type', () => {
     const groups = {};
+    const skip = ['PastLife','EpicDestinyTree','UniversalTree','RacialTree','ClassTree'];
     for (const lt of build.querySelectorAll('LevelTraining')) {
       for (const f of lt.querySelectorAll('TrainedFeat')) {
-        const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Other', lv = gt(f,'LevelTrainedAt');
-        if (!fn) continue;
-        if (!groups[ft]) groups[ft] = [];
-        groups[ft].push({ name:fn, level:lv });
+        const fn=gt(f,'FeatName'),ft=gt(f,'Type')||'Other',lv=gt(f,'LevelTrainedAt');
+        if(!fn)continue;
+        if(!groups[ft])groups[ft]=[];
+        groups[ft].push({name:fn,level:lv});
       }
     }
     for (const f of life.querySelectorAll('SpecialFeats > TrainedFeat')) {
-      const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Special';
-      if (fn) { if (!groups[ft]) groups[ft] = []; groups[ft].push({ name:fn, level:'0' }); }
+      const fn=gt(f,'FeatName'),ft=gt(f,'Type')||'Special';
+      if(fn&&!skip.some(s=>ft.includes(s))){ if(!groups[ft])groups[ft]=[]; groups[ft].push({name:fn,level:'0'}); }
     }
-    if (char) {
-      for (const f of char.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
-        const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Special';
-        if (!fn) continue;
-        if (!groups[ft]) groups[ft] = [];
-        if (!groups[ft].some(x => x.name === fn)) groups[ft].push({ name:fn, level:'0' });
+    if(ch){
+      for (const f of ch.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
+        const fn=gt(f,'FeatName'),ft=gt(f,'Type')||'Special';
+        if(!fn||skip.some(s=>ft.includes(s)))continue;
+        if(!groups[ft])groups[ft]=[];
+        if(!groups[ft].some(x=>x.name===fn)) groups[ft].push({name:fn,level:'0'});
       }
     }
-    if (!Object.keys(groups).length) return '<div class="empty-msg">No feats</div>';
-    let s = '';
-    const types = Object.keys(groups).sort((a,b) => a==='Standard'?-1:b==='Standard'?1:a.localeCompare(b));
-    for (const type of types) {
-      s += '<div class="feat-group"><h4>' + esc(type) + '</h4><ul class="feat-list">';
-      groups[type].forEach(f => {
-        const li = (f.level && f.level !== '0') ? ' (Lv ' + f.level + ')' : '';
-        s += '<li>' + esc(f.name) + '<span class="feat-type">' + esc(li) + '</span></li>';
+    if(!Object.keys(groups).length) return '<div class="empty-msg">No feats</div>';
+    let s='';
+    const types=Object.keys(groups).sort((a,b)=>a==='Standard'?-1:b==='Standard'?1:a.localeCompare(b));
+    for(const type of types){
+      s+='<div class="fg"><h4>'+esc(type)+'</h4><ul class="fl">';
+      groups[type].forEach(f=>{
+        const li=(f.level&&f.level!=='0')?' (Lv '+f.level+')':'';
+        s+='<li>'+esc(f.name)+'<span class="ft2">'+esc(li)+'</span></li>';
       });
-      s += '</ul></div>';
+      s+='</ul></div>';
     }
     return s;
   });
 
-  html += makeSection('Enhancement Trees', () => {
-    let s = '';
-    for (const t of build.querySelectorAll('Enhancement_SelectedTrees > TreeName'))
-      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
-    return s || '<div class="empty-msg">None selected</div>';
-  }, true);
-
-  html += makeSection('Epic Destiny Trees', () => {
-    let s = '';
-    for (const t of build.querySelectorAll('Destiny_SelectedTrees > TreeName'))
-      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
-    return s || '<div class="empty-msg">None selected</div>';
-  });
-
-  html += makeSection('Reaper Trees', () => {
-    let s = '';
-    for (const t of build.querySelectorAll('Reaper_SelectedTrees > TreeName'))
-      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
-    return s || '<div class="empty-msg">None selected</div>';
-  });
-
-  html += makeSection('Skills (Total Ranks Trained)', () => {
-    const skills = {};
-    for (const lt of build.querySelectorAll('LevelTraining'))
-      for (const ts of lt.querySelectorAll('TrainedSkill')) {
-        const sk = gt(ts,'Skill');
-        if (sk) skills[sk] = (skills[sk]||0) + 1;
+  // Skills
+  h += makeSection('Skills', () => {
+    const skills={};
+    for(const lt of build.querySelectorAll('LevelTraining'))
+      for(const ts of lt.querySelectorAll('TrainedSkill')){
+        const sk=gt(ts,'Skill');
+        if(sk) skills[sk]=(skills[sk]||0)+1;
       }
-    if (!Object.keys(skills).length) return '<div class="empty-msg">No skills trained</div>';
-    let s = '<div class="skills-grid">';
-    Object.entries(skills).sort((a,b) => b[1]-a[1]).forEach(([n,c]) => {
-      s += '<div class="skill-row"><span class="skill-name">' + esc(n) + '</span><span class="skill-val">' + c + '</span></div>';
+    if(!Object.keys(skills).length) return '<div class="empty-msg">No skills trained</div>';
+    let s='<div class="sg">';
+    Object.entries(skills).sort((a,b)=>b[1]-a[1]).forEach(([n,c])=>{
+      s+='<div class="sr"><span class="sn">'+esc(n)+'</span><span class="sv">'+c+'</span></div>';
     });
-    return s + '</div>';
+    return s+'</div>';
   });
 
-  $('#detailView').innerHTML = html;
-  $$('.section-header').forEach(h => {
-    h.addEventListener('click', () => {
-      h.nextElementSibling.classList.toggle('open');
-      h.querySelector('.arrow').classList.toggle('open');
+  $('#detailView').innerHTML = h;
+  $$('.section-header').forEach(hdr => {
+    hdr.addEventListener('click', () => {
+      hdr.nextElementSibling.classList.toggle('open');
+      hdr.querySelector('.arrow').classList.toggle('open');
     });
   });
+}
+
+function renderTrees(build, prefix) {
+  const trees = build.querySelectorAll(prefix + 'SpendInTree');
+  if (!trees.length) return '<div class="empty-msg">None</div>';
+  let s = '';
+  for (const tree of trees) {
+    const tn = gt(tree,'TreeName');
+    if (!tn) continue;
+    const enhs = tree.querySelectorAll('TrainedEnhancement');
+    let pts = 0;
+    for (const e of enhs) pts += parseInt(gt(e,'Ranks'))||1;
+    s += '<div class="tb"><div class="tb-h"><span class="tn">'+esc(tn)+'</span><span class="tp">'+pts+' pts</span></div>';
+    for (const e of enhs) {
+      const en = gt(e,'EnhancementName');
+      const sel = gt(e,'Selection');
+      const ranks = parseInt(gt(e,'Ranks'))||1;
+      const t5 = e.querySelector('IsTier5') !== null;
+      const dn = cleanEnh(en, tn);
+      s += '<div class="ei'+(t5?' t5':'')+'"><span class="en">'+esc(dn)+'</span>';
+      if (sel) s += '<span class="es">: '+esc(sel)+'</span>';
+      if (ranks > 1) s += '<span class="er"> ('+ranks+')</span>';
+      if (t5) s += '<span class="er"> [T5]</span>';
+      s += '</div>';
+    }
+    s += '</div>';
+  }
+  return s;
+}
+
+function cleanEnh(name, tree) {
+  let c = name.replace(/^U\d+/,'');
+  const tw = tree.replace(/[^a-zA-Z0-9]/g,'');
+  if (c.length>tw.length && c.substring(0,tw.length).toLowerCase()===tw.toLowerCase())
+    c = c.substring(tw.length);
+  else {
+    const fw = tree.split(/[\s\-]+/)[0].replace(/[^a-zA-Z0-9]/g,'');
+    if (fw.length>2 && c.length>fw.length && c.substring(0,fw.length).toLowerCase()===fw.toLowerCase())
+      c = c.substring(fw.length);
+  }
+  c = c.replace(/([a-z\d])([A-Z])/g,'$1 $2').replace(/([A-Z]+)([A-Z][a-z])/g,'$1 $2').replace(/(\D)(\d)/g,'$1 $2');
+  return c.trim() || name;
 }
 
 function makeSection(title, fn, open) {
-  const c = fn(), o = open ? ' open' : '';
-  return '<div class="section"><div class="section-header"><h3>' + esc(title) + '</h3><span class="arrow' + o + '">&#9654;</span></div><div class="section-body' + o + '">' + c + '</div></div>';
+  const c=fn(),o=open?' open':'';
+  return '<div class="section"><div class="section-header"><h3>'+esc(title)+'</h3><span class="arrow'+o+'">&#9654;</span></div><div class="section-body'+o+'">'+c+'</div></div>';
 }
-
-function gt(p, t) {
-  if (!p) return '';
-  const el = p.querySelector(':scope > ' + t);
-  return el ? el.textContent.trim() : '';
-}
-function cleanName(f) { return f.replace(/\.DDOBuild$/i, ''); }
-function esc(s) { return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : ''; }
-
-window.addEventListener('popstate', () => { if (navStack.length) $('#backBtn').click(); });
+function gt(p,t){if(!p)return '';const el=p.querySelector(':scope > '+t);return el?el.textContent.trim():'';}
+function cleanName(f){return f.replace(/\.DDOBuild$/i,'');}
+function esc(s){return s?s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):'';}
+window.addEventListener('popstate',()=>{if(navStack.length)$('#backBtn').click();});
 init();
 </script>
 </body>
