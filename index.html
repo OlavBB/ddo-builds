@@ -15,8 +15,8 @@
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 a{color:var(--blue);text-decoration:none}
 .header{background:var(--bg2);border-bottom:2px solid var(--accent);padding:12px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
-.header h1{font-size:1.2rem;color:var(--gold);white-space:nowrap}
-.header .back{display:none;background:none;border:none;color:var(--accent);font-size:1.4rem;cursor:pointer;padding:4px 8px}
+.header h1{font-size:1.2rem;color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.header .back{display:none;background:none;border:none;color:var(--accent);font-size:1.4rem;cursor:pointer;padding:4px 8px;flex-shrink:0}
 .header .back.show{display:block}
 .container{max-width:800px;margin:0 auto;padding:12px}
 .card-list{display:flex;flex-direction:column;gap:10px}
@@ -26,7 +26,10 @@ a{color:var(--blue);text-decoration:none}
 .build-card h2{font-size:1rem;color:var(--gold);margin-bottom:4px}
 .build-card .meta{font-size:.85rem;color:var(--text2)}
 .build-card .classes{font-size:.9rem;color:var(--blue);margin-top:4px}
-.build-card .life-count{font-size:.8rem;color:var(--accent);margin-top:4px}
+.badge{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:10px;margin-left:8px}
+.badge-lives{background:var(--accent2);color:var(--text)}
+.badge-builds{background:var(--bg3);color:var(--blue)}
+.badge-current{background:var(--green);color:#fff}
 .loading{text-align:center;padding:40px;color:var(--text2)}
 .loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -72,7 +75,6 @@ a{color:var(--blue);text-decoration:none}
 .levelup-label{color:var(--text2)}
 .levelup-val{color:var(--gold)}
 .empty-msg{color:var(--text2);font-style:italic;font-size:.85rem;padding:4px 0}
-.life-badge{display:inline-block;background:var(--accent2);color:var(--text);font-size:.75rem;padding:2px 8px;border-radius:10px;margin-left:8px}
 </style>
 </head>
 <body>
@@ -91,25 +93,25 @@ a{color:var(--blue);text-decoration:none}
   <div class="view" id="livesView">
     <div class="card-list" id="livesList"></div>
   </div>
+  <div class="view" id="buildsView">
+    <div class="card-list" id="buildsList"></div>
+  </div>
   <div class="view" id="detailView"></div>
 </div>
 <script>
-const $ = s => document.querySelector(s);
+)V1"
+// Part 2: JavaScript â€” navigation + file list + lives list
+R"V2(const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 let buildFiles = [];
 let buildCache = {};
-let navStack = []; // tracks navigation for back button
+let navStack = [];
 
 function showView(id, title) {
   $$('.view').forEach(v => v.classList.remove('active'));
   $(id).classList.add('active');
   $('#headerTitle').textContent = title || 'DDO Builds';
-  const backBtn = $('#backBtn');
-  if (navStack.length > 0) {
-    backBtn.classList.add('show');
-  } else {
-    backBtn.classList.remove('show');
-  }
+  $('#backBtn').classList.toggle('show', navStack.length > 0);
   window.scrollTo(0, 0);
 }
 
@@ -140,12 +142,8 @@ function renderFileList() {
     return;
   }
   const promises = buildFiles.map(async (file) => {
-    try {
-      const xml = await fetchBuild(file);
-      return { file, xml };
-    } catch(e) {
-      return { file, error: e.message };
-    }
+    try { return { file, xml: await fetchBuild(file) }; }
+    catch(e) { return { file, error: e.message }; }
   });
   Promise.all(promises).then(results => {
     listEl.innerHTML = '';
@@ -153,23 +151,23 @@ function renderFileList() {
       const card = document.createElement('div');
       card.className = 'build-card';
       if (r.error) {
-        card.innerHTML = '<h2>' + escHtml(cleanName(r.file)) + '</h2><div class="meta">Error loading</div>';
-        card.onclick = () => {};
+        card.innerHTML = '<h2>' + esc(cleanName(r.file)) + '</h2><div class="meta">Error loading</div>';
       } else {
-        const life = r.xml.querySelector('Life');
-        const charName = life ? getText(life, 'Name') : '';
-        const race = life ? getText(life, 'Race') : '';
-        const builds = life ? life.querySelectorAll(':scope > Build') : [];
-        const buildCount = builds.length;
-        // Show info from first (current) build
-        const firstBuild = builds[0];
-        const level = firstBuild ? getText(firstBuild, 'Level') : '?';
-        const classLine = firstBuild ? getClassLine(firstBuild) : '?';
+        const lives = r.xml.querySelectorAll('Character > Life');
+        const liveCount = lives.length;
+        // Use first life for summary
+        const life = lives[0];
+        const name = life ? gt(life, 'Name') : '';
+        const race = life ? gt(life, 'Race') : '';
+        const firstBuild = life ? life.querySelector(':scope > Build') : null;
+        const level = firstBuild ? gt(firstBuild, 'Level') : '?';
+        const classLine = firstBuild ? getClassLine(firstBuild) : '';
 
-        card.innerHTML = '<h2>' + escHtml(charName || cleanName(r.file)) + '</h2>'
-          + '<div class="meta">' + escHtml(race) + ' &middot; Level ' + escHtml(level) + '</div>'
-          + '<div class="classes">' + escHtml(classLine) + '</div>'
-          + (buildCount > 1 ? '<div class="life-count">' + buildCount + ' lives</div>' : '');
+        card.innerHTML = '<h2>' + esc(name || cleanName(r.file))
+          + (liveCount > 1 ? '<span class="badge badge-lives">' + liveCount + ' lives</span>' : '')
+          + '</h2>'
+          + '<div class="meta">' + esc(race) + ' &middot; Level ' + esc(level) + '</div>'
+          + '<div class="classes">' + esc(classLine) + '</div>';
         card.onclick = () => openFile(r.file, r.xml);
       }
       listEl.appendChild(card);
@@ -182,50 +180,98 @@ async function fetchBuild(file) {
   const resp = await fetch(file);
   if (!resp.ok) throw new Error('HTTP ' + resp.status);
   const text = await resp.text();
-  const parser = new DOMParser();
-  const xml = parser.parseFromString(text, 'text/xml');
+  const xml = new DOMParser().parseFromString(text, 'text/xml');
   buildCache[file] = xml;
   return xml;
 }
 
 function openFile(file, xml) {
-  const life = xml.querySelector('Life');
-  if (!life) return;
-  const builds = life.querySelectorAll(':scope > Build');
-  if (builds.length === 1) {
-    // Only one build — go straight to detail
-    navStack.push({ view: '#fileListView', title: 'DDO Builds' });
-    renderDetail(xml, life, builds[0], file, 0);
-    showView('#detailView', getText(life, 'Name') || cleanName(file));
+  const lives = xml.querySelectorAll('Character > Life');
+  if (lives.length === 0) return;
+  if (lives.length === 1) {
+    // Single life â€” check builds
+    const life = lives[0];
+    const builds = life.querySelectorAll(':scope > Build');
+    if (builds.length <= 1) {
+      // Single life, single build â€” straight to detail
+      navStack.push({ view: '#fileListView', title: 'DDO Builds' });
+      renderDetail(xml, life, builds[0] || life, file);
+      showView('#detailView', gt(life, 'Name') || cleanName(file));
+    } else {
+      // Single life, multiple builds
+      navStack.push({ view: '#fileListView', title: 'DDO Builds' });
+      renderBuildsList(xml, life, builds, file);
+      showView('#buildsView', gt(life, 'Name') || cleanName(file));
+    }
   } else {
-    // Multiple builds — show lives list
+    // Multiple lives
     navStack.push({ view: '#fileListView', title: 'DDO Builds' });
-    renderLivesList(xml, life, builds, file);
-    showView('#livesView', getText(life, 'Name') || cleanName(file));
+    renderLivesList(xml, lives, file);
+    showView('#livesView', cleanName(file));
   }
 }
 
-function renderLivesList(xml, life, builds, file) {
+function renderLivesList(xml, lives, file) {
   const listEl = $('#livesList');
   listEl.innerHTML = '';
-  const charName = getText(life, 'Name') || cleanName(file);
-  const race = getText(life, 'Race');
-
-  for (let i = 0; i < builds.length; i++) {
-    const build = builds[i];
-    const level = getText(build, 'Level');
-    const classLine = getClassLine(build);
-    const label = i === 0 ? 'Current Life' : 'Past Life ' + i;
+  for (let i = 0; i < lives.length; i++) {
+    const life = lives[i];
+    const name = gt(life, 'Name');
+    const race = gt(life, 'Race');
+    const builds = life.querySelectorAll(':scope > Build');
+    const firstBuild = builds[0];
+    const level = firstBuild ? gt(firstBuild, 'Level') : '?';
+    const classLine = firstBuild ? getClassLine(firstBuild) : '';
+    const label = name || (i === 0 ? 'Current Life' : 'Life ' + (i + 1));
 
     const card = document.createElement('div');
     card.className = 'build-card';
-    card.innerHTML = '<h2>' + escHtml(label) + '<span class="life-badge">Life ' + (i + 1) + '</span></h2>'
-      + '<div class="meta">' + escHtml(race) + ' &middot; Level ' + escHtml(level) + '</div>'
-      + '<div class="classes">' + escHtml(classLine) + '</div>';
+    card.innerHTML = '<h2>' + esc(label)
+      + (i === 0 ? '<span class="badge badge-current">Current</span>' : '')
+      + (builds.length > 1 ? '<span class="badge badge-builds">' + builds.length + ' builds</span>' : '')
+      + '</h2>'
+      + '<div class="meta">' + esc(race) + ' &middot; Level ' + esc(level) + '</div>'
+      + '<div class="classes">' + esc(classLine) + '</div>';
     card.onclick = ((idx) => () => {
-      navStack.push({ view: '#livesView', title: charName });
-      renderDetail(xml, life, builds[idx], file, idx);
-      showView('#detailView', charName + ' — ' + (idx === 0 ? 'Current' : 'Past Life ' + idx));
+      const life = lives[idx];
+      const builds = life.querySelectorAll(':scope > Build');
+      const lifeName = gt(life, 'Name') || (idx === 0 ? 'Current Life' : 'Life ' + (idx + 1));
+      if (builds.length <= 1) {
+        navStack.push({ view: '#livesView', title: cleanName(file) });
+        renderDetail(xml, life, builds[0] || life, file);
+        showView('#detailView', lifeName);
+      } else {
+        navStack.push({ view: '#livesView', title: cleanName(file) });
+        renderBuildsList(xml, life, builds, file);
+        showView('#buildsView', lifeName);
+      }
+    })(i);
+    listEl.appendChild(card);
+  }
+}
+
+function renderBuildsList(xml, life, builds, file) {
+  const listEl = $('#buildsList');
+  listEl.innerHTML = '';
+  const lifeName = gt(life, 'Name') || cleanName(file);
+  const race = gt(life, 'Race');
+  for (let i = 0; i < builds.length; i++) {
+    const build = builds[i];
+    const level = gt(build, 'Level');
+    const classLine = getClassLine(build);
+    const label = i === 0 ? 'Current Build' : 'Past Build ' + i;
+
+    const card = document.createElement('div');
+    card.className = 'build-card';
+    card.innerHTML = '<h2>' + esc(label)
+      + (i === 0 ? '<span class="badge badge-current">Current</span>' : '')
+      + '</h2>'
+      + '<div class="meta">' + esc(race) + ' &middot; Level ' + esc(level) + '</div>'
+      + '<div class="classes">' + esc(classLine) + '</div>';
+    card.onclick = ((idx) => () => {
+      navStack.push({ view: '#buildsView', title: lifeName });
+      renderDetail(xml, life, builds[idx], file);
+      showView('#detailView', lifeName + ' â€” ' + (idx === 0 ? 'Current' : 'Build ' + (idx + 1)));
     })(i);
     listEl.appendChild(card);
   }
@@ -236,53 +282,52 @@ function getClassLine(build) {
   const counts = {};
   const order = [];
   for (const lt of levels) {
-    const cls = getText(lt, 'Class');
+    const cls = gt(lt, 'Class');
     if (!cls || cls === 'Epic' || cls === 'Legendary') continue;
     if (!counts[cls]) { counts[cls] = 0; order.push(cls); }
     counts[cls]++;
   }
   return order.map(c => c + ' ' + counts[c]).join(' / ');
 }
-function renderDetail(xml, life, build, file, buildIdx) {
+)V2"
+// Part 3: JavaScript â€” detail rendering
+R"V3(function renderDetail(xml, life, build, file) {
   const char = xml.querySelector('Character');
-  const name = getText(life, 'Name') || cleanName(file);
-  const race = getText(life, 'Race');
-  const alignment = getText(life, 'Alignment');
-  const level = getText(build, 'Level');
+  const name = gt(life, 'Name') || cleanName(file);
+  const race = gt(life, 'Race');
+  const alignment = gt(life, 'Alignment');
+  const level = gt(build, 'Level');
   const classLine = getClassLine(build);
 
   let html = '';
   html += '<div class="detail-header">';
-  html += '<h2>' + escHtml(name) + '</h2>';
+  html += '<h2>' + esc(name) + '</h2>';
   html += '<div class="info-grid">';
-  html += '<span class="label">Race</span><span class="value">' + escHtml(race) + '</span>';
-  html += '<span class="label">Alignment</span><span class="value">' + escHtml(alignment) + '</span>';
-  html += '<span class="label">Level</span><span class="value">' + escHtml(level) + '</span>';
+  html += '<span class="label">Race</span><span class="value">' + esc(race) + '</span>';
+  html += '<span class="label">Alignment</span><span class="value">' + esc(alignment) + '</span>';
+  html += '<span class="label">Level</span><span class="value">' + esc(level) + '</span>';
   html += '</div>';
-  html += '<div class="classes-summary">' + escHtml(classLine) + '</div>';
+  html += '<div class="classes-summary">' + esc(classLine) + '</div>';
   html += '</div>';
 
-  // Ability Scores
   html += makeSection('Ability Point Spend', () => {
     const spend = build.querySelector('AbilitySpend');
     if (!spend) return '<div class="empty-msg">No ability data</div>';
-    const abilities = [
-      { name: 'STR', spend: 'StrSpend', tome: 'StrTome' },
-      { name: 'DEX', spend: 'DexSpend', tome: 'DexTome' },
-      { name: 'CON', spend: 'ConSpend', tome: 'ConTome' },
-      { name: 'INT', spend: 'IntSpend', tome: 'IntTome' },
-      { name: 'WIS', spend: 'WisSpend', tome: 'WisTome' },
-      { name: 'CHA', spend: 'ChaSpend', tome: 'ChaTome' },
+    const abs = [
+      { n:'STR', s:'StrSpend', t:'StrTome' },
+      { n:'DEX', s:'DexSpend', t:'DexTome' },
+      { n:'CON', s:'ConSpend', t:'ConTome' },
+      { n:'INT', s:'IntSpend', t:'IntTome' },
+      { n:'WIS', s:'WisSpend', t:'WisTome' },
+      { n:'CHA', s:'ChaSpend', t:'ChaTome' },
     ];
-    const available = getText(spend, 'AvailableSpend') || '?';
-    let s = '<div style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Point buy: ' + escHtml(available) + '</div>';
+    const avail = gt(spend, 'AvailableSpend') || '?';
+    let s = '<div style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Point buy: ' + esc(avail) + '</div>';
     s += '<div class="ability-grid">';
-    abilities.forEach(a => {
-      const pts = getText(spend, a.spend) || '0';
-      const tome = char ? getText(char, a.tome) : '0';
-      s += '<div class="ability-box">';
-      s += '<div class="name">' + a.name + '</div>';
-      s += '<div class="spend">' + pts + '</div>';
+    abs.forEach(a => {
+      const pts = gt(spend, a.s) || '0';
+      const tome = char ? gt(char, a.t) : '0';
+      s += '<div class="ability-box"><div class="name">' + a.n + '</div><div class="spend">' + pts + '</div>';
       if (tome && tome !== '0') s += '<div class="tome">+' + tome + ' tome</div>';
       s += '</div>';
     });
@@ -290,191 +335,133 @@ function renderDetail(xml, life, build, file, buildIdx) {
     return s;
   }, true);
 
-  // Level-up ability increases
   html += makeSection('Level-Up Ability Increases', () => {
     const lvls = [4,8,12,16,20,24,28,32,36,40];
-    let s = '';
-    let hasAny = false;
+    let s = '', any = false;
     lvls.forEach(lv => {
       const el = build.querySelector('Level' + lv);
       if (el && el.textContent) {
-        hasAny = true;
-        s += '<div class="levelup-row"><span class="levelup-label">Level ' + lv + '</span><span class="levelup-val">' + escHtml(el.textContent) + '</span></div>';
+        any = true;
+        s += '<div class="levelup-row"><span class="levelup-label">Level ' + lv + '</span><span class="levelup-val">' + esc(el.textContent) + '</span></div>';
       }
     });
-    return hasAny ? s : '<div class="empty-msg">None</div>';
+    return any ? s : '<div class="empty-msg">None</div>';
   });
 
-  // Level Progression
   html += makeSection('Level Progression', () => {
     const levels = build.querySelectorAll('LevelTraining');
     if (!levels.length) return '<div class="empty-msg">No level data</div>';
-    let s = '';
-    let lvNum = 1;
+    let s = '', n = 1;
     for (const lt of levels) {
-      const cls = getText(lt, 'Class');
-      const feats = lt.querySelectorAll('TrainedFeat');
-      let featHtml = '';
-      for (const f of feats) {
-        const fn = getText(f, 'FeatName');
-        const ft = getText(f, 'Type');
-        if (fn) featHtml += '<span title="' + escAttr(ft) + '">' + escHtml(fn) + '</span> ';
+      const cls = gt(lt, 'Class');
+      let fh = '';
+      for (const f of lt.querySelectorAll('TrainedFeat')) {
+        const fn = gt(f, 'FeatName'), ft = gt(f, 'Type');
+        if (fn) fh += '<span title="' + esc(ft) + '">' + esc(fn) + '</span> ';
       }
-      s += '<div class="level-row">';
-      s += '<span class="level-num">' + lvNum + '</span>';
-      s += '<span class="level-class">' + escHtml(cls) + '</span>';
-      s += '<span class="level-feats">' + (featHtml || '') + '</span>';
-      s += '</div>';
-      lvNum++;
+      s += '<div class="level-row"><span class="level-num">' + n + '</span><span class="level-class">' + esc(cls) + '</span><span class="level-feats">' + fh + '</span></div>';
+      n++;
     }
     return s;
   }, true);
-
-  // Feats grouped by type
+)V3"
+// Part 4: JavaScript â€” feats, trees, skills, helpers
+R"V4(
   html += makeSection('All Feats by Type', () => {
-    const levels = build.querySelectorAll('LevelTraining');
     const groups = {};
-    for (const lt of levels) {
+    for (const lt of build.querySelectorAll('LevelTraining')) {
       for (const f of lt.querySelectorAll('TrainedFeat')) {
-        const fn = getText(f, 'FeatName');
-        const ft = getText(f, 'Type') || 'Other';
-        const lv = getText(f, 'LevelTrainedAt');
+        const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Other', lv = gt(f,'LevelTrainedAt');
         if (!fn) continue;
         if (!groups[ft]) groups[ft] = [];
-        groups[ft].push({ name: fn, level: lv });
+        groups[ft].push({ name:fn, level:lv });
       }
     }
-    const specialFeats = life.querySelectorAll('SpecialFeats > TrainedFeat');
-    for (const f of specialFeats) {
-      const fn = getText(f, 'FeatName');
-      const ft = getText(f, 'Type') || 'Special';
-      if (!fn) continue;
-      if (!groups[ft]) groups[ft] = [];
-      groups[ft].push({ name: fn, level: '0' });
+    for (const f of life.querySelectorAll('SpecialFeats > TrainedFeat')) {
+      const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Special';
+      if (fn) { if (!groups[ft]) groups[ft] = []; groups[ft].push({ name:fn, level:'0' }); }
     }
     if (char) {
-      const charFeats = char.querySelectorAll(':scope > SpecialFeats > TrainedFeat');
-      for (const f of charFeats) {
-        const fn = getText(f, 'FeatName');
-        const ft = getText(f, 'Type') || 'Special';
+      for (const f of char.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
+        const fn = gt(f,'FeatName'), ft = gt(f,'Type')||'Special';
         if (!fn) continue;
         if (!groups[ft]) groups[ft] = [];
-        if (!groups[ft].some(x => x.name === fn)) {
-          groups[ft].push({ name: fn, level: '0' });
-        }
+        if (!groups[ft].some(x => x.name === fn)) groups[ft].push({ name:fn, level:'0' });
       }
     }
-    if (Object.keys(groups).length === 0) return '<div class="empty-msg">No feats</div>';
+    if (!Object.keys(groups).length) return '<div class="empty-msg">No feats</div>';
     let s = '';
-    const sortedTypes = Object.keys(groups).sort((a, b) => {
-      if (a === 'Standard') return -1;
-      if (b === 'Standard') return 1;
-      return a.localeCompare(b);
-    });
-    for (const type of sortedTypes) {
-      s += '<div class="feat-group"><h4>' + escHtml(type) + '</h4><ul class="feat-list">';
+    const types = Object.keys(groups).sort((a,b) => a==='Standard'?-1:b==='Standard'?1:a.localeCompare(b));
+    for (const type of types) {
+      s += '<div class="feat-group"><h4>' + esc(type) + '</h4><ul class="feat-list">';
       groups[type].forEach(f => {
-        const lvInfo = (f.level && f.level !== '0') ? ' (Lv ' + f.level + ')' : '';
-        s += '<li>' + escHtml(f.name) + '<span class="feat-type">' + escHtml(lvInfo) + '</span></li>';
+        const li = (f.level && f.level !== '0') ? ' (Lv ' + f.level + ')' : '';
+        s += '<li>' + esc(f.name) + '<span class="feat-type">' + esc(li) + '</span></li>';
       });
       s += '</ul></div>';
     }
     return s;
   });
 
-  // Enhancement Trees
   html += makeSection('Enhancement Trees', () => {
-    const trees = build.querySelectorAll('Enhancement_SelectedTrees > TreeName');
-    if (!trees.length) return '<div class="empty-msg">None selected</div>';
     let s = '';
-    for (const t of trees) {
-      if (t.textContent && t.textContent !== 'No selection')
-        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
-    }
+    for (const t of build.querySelectorAll('Enhancement_SelectedTrees > TreeName'))
+      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
     return s || '<div class="empty-msg">None selected</div>';
   }, true);
 
-  // Destiny Trees
   html += makeSection('Epic Destiny Trees', () => {
-    const trees = build.querySelectorAll('Destiny_SelectedTrees > TreeName');
-    if (!trees.length) return '<div class="empty-msg">None selected</div>';
     let s = '';
-    for (const t of trees) {
-      if (t.textContent && t.textContent !== 'No selection')
-        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
-    }
+    for (const t of build.querySelectorAll('Destiny_SelectedTrees > TreeName'))
+      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
     return s || '<div class="empty-msg">None selected</div>';
   });
 
-  // Reaper Trees
   html += makeSection('Reaper Trees', () => {
-    const trees = build.querySelectorAll('Reaper_SelectedTrees > TreeName');
-    if (!trees.length) return '<div class="empty-msg">None selected</div>';
     let s = '';
-    for (const t of trees) {
-      if (t.textContent && t.textContent !== 'No selection')
-        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
-    }
+    for (const t of build.querySelectorAll('Reaper_SelectedTrees > TreeName'))
+      if (t.textContent && t.textContent !== 'No selection') s += '<div class="tree-name">' + esc(t.textContent) + '</div>';
     return s || '<div class="empty-msg">None selected</div>';
   });
 
-  // Skills summary
   html += makeSection('Skills (Total Ranks Trained)', () => {
-    const levels = build.querySelectorAll('LevelTraining');
     const skills = {};
-    for (const lt of levels) {
+    for (const lt of build.querySelectorAll('LevelTraining'))
       for (const ts of lt.querySelectorAll('TrainedSkill')) {
-        const sk = getText(ts, 'Skill');
-        if (sk) skills[sk] = (skills[sk] || 0) + 1;
+        const sk = gt(ts,'Skill');
+        if (sk) skills[sk] = (skills[sk]||0) + 1;
       }
-    }
-    if (Object.keys(skills).length === 0) return '<div class="empty-msg">No skills trained</div>';
-    const sorted = Object.entries(skills).sort((a, b) => b[1] - a[1]);
+    if (!Object.keys(skills).length) return '<div class="empty-msg">No skills trained</div>';
     let s = '<div class="skills-grid">';
-    sorted.forEach(([name, count]) => {
-      s += '<div class="skill-row"><span class="skill-name">' + escHtml(name) + '</span><span class="skill-val">' + count + '</span></div>';
+    Object.entries(skills).sort((a,b) => b[1]-a[1]).forEach(([n,c]) => {
+      s += '<div class="skill-row"><span class="skill-name">' + esc(n) + '</span><span class="skill-val">' + c + '</span></div>';
     });
-    s += '</div>';
-    return s;
+    return s + '</div>';
   });
 
   $('#detailView').innerHTML = html;
-
   $$('.section-header').forEach(h => {
     h.addEventListener('click', () => {
-      const body = h.nextElementSibling;
-      const arrow = h.querySelector('.arrow');
-      body.classList.toggle('open');
-      arrow.classList.toggle('open');
+      h.nextElementSibling.classList.toggle('open');
+      h.querySelector('.arrow').classList.toggle('open');
     });
   });
 }
 
-function makeSection(title, contentFn, startOpen) {
-  const content = contentFn();
-  const openClass = startOpen ? ' open' : '';
-  return '<div class="section">'
-    + '<div class="section-header"><h3>' + escHtml(title) + '</h3><span class="arrow' + openClass + '">&#9654;</span></div>'
-    + '<div class="section-body' + openClass + '">' + content + '</div>'
-    + '</div>';
+function makeSection(title, fn, open) {
+  const c = fn(), o = open ? ' open' : '';
+  return '<div class="section"><div class="section-header"><h3>' + esc(title) + '</h3><span class="arrow' + o + '">&#9654;</span></div><div class="section-body' + o + '">' + c + '</div></div>';
 }
 
-function getText(parent, tag) {
-  if (!parent) return '';
-  const el = parent.querySelector(':scope > ' + tag);
+function gt(p, t) {
+  if (!p) return '';
+  const el = p.querySelector(':scope > ' + t);
   return el ? el.textContent.trim() : '';
 }
-function cleanName(file) { return file.replace(/\.DDOBuild$/i, ''); }
-function escHtml(s) {
-  if (!s) return '';
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function escAttr(s) { return escHtml(s); }
+function cleanName(f) { return f.replace(/\.DDOBuild$/i, ''); }
+function esc(s) { return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : ''; }
 
-window.addEventListener('popstate', () => {
-  if (navStack.length > 0) $('#backBtn').click();
-});
-
+window.addEventListener('popstate', () => { if (navStack.length) $('#backBtn').click(); });
 init();
 </script>
 </body>
