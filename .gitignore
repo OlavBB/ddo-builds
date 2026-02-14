@@ -5,3 +5,7 @@
 !.gitignore
 !*.DDOBuild
 !*.DDOBuild.backup
+
+# Allow build viewer
+!index.html
+!builds.json

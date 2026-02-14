@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DDO Builds</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#1a1a2e;--bg2:#16213e;--bg3:#0f3460;
+  --text:#e0e0e0;--text2:#a0a0b0;--accent:#e94560;
+  --accent2:#533483;--gold:#d4a017;--card:#1e2a4a;
+  --border:#2a3a5a;--green:#4caf50;--blue:#5c9ded;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+a{color:var(--blue);text-decoration:none}
+.header{background:var(--bg2);border-bottom:2px solid var(--accent);padding:12px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
+.header h1{font-size:1.2rem;color:var(--gold);white-space:nowrap}
+.header .back{display:none;background:none;border:none;color:var(--accent);font-size:1.4rem;cursor:pointer;padding:4px 8px}
+.header .back.show{display:block}
+.container{max-width:800px;margin:0 auto;padding:12px}
+.build-list{display:flex;flex-direction:column;gap:10px}
+.build-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;cursor:pointer;transition:border-color .2s,transform .1s}
+.build-card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.build-card:active{transform:translateY(0)}
+.build-card h2{font-size:1rem;color:var(--gold);margin-bottom:4px}
+.build-card .meta{font-size:.85rem;color:var(--text2)}
+.build-card .classes{font-size:.9rem;color:var(--blue);margin-top:4px}
+.loading{text-align:center;padding:40px;color:var(--text2)}
+.loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.error{text-align:center;padding:40px;color:var(--accent)}
+.build-detail{display:none}
+.build-detail.active{display:block}
+.build-list-view.hidden{display:none}
+.detail-header{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px}
+.detail-header h2{color:var(--gold);font-size:1.3rem;margin-bottom:8px}
+.detail-header .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:.9rem}
+.detail-header .info-grid .label{color:var(--text2)}
+.detail-header .info-grid .value{color:var(--text)}
+.detail-header .classes-summary{margin-top:10px;font-size:1rem;color:var(--blue);font-weight:600}
+.section{background:var(--card);border:1px solid var(--border);border-radius:8px;margin-bottom:10px;overflow:hidden}
+.section-header{padding:12px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
+.section-header:hover{background:rgba(255,255,255,.03)}
+.section-header h3{font-size:.95rem;color:var(--accent)}
+.section-header .arrow{color:var(--text2);transition:transform .2s;font-size:.8rem}
+.section-header .arrow.open{transform:rotate(90deg)}
+.section-body{padding:0 14px 14px;display:none}
+.section-body.open{display:block}
+.feat-group{margin-bottom:10px}
+.feat-group h4{font-size:.85rem;margin-bottom:4px;color:var(--gold)}
+.feat-list{list-style:none;font-size:.85rem}
+.feat-list li{padding:2px 0;color:var(--text)}
+.feat-list .feat-type{color:var(--text2);font-size:.8rem;margin-left:6px}
+.tree-name{color:var(--blue);font-size:.9rem;padding:3px 0}
+.ability-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ability-box{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:8px;text-align:center}
+.ability-box .name{font-size:.75rem;color:var(--text2);text-transform:uppercase}
+.ability-box .spend{font-size:1.1rem;font-weight:700;color:var(--gold)}
+.ability-box .tome{font-size:.75rem;color:var(--green)}
+.level-row{display:flex;align-items:baseline;gap:8px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.85rem}
+.level-row:last-child{border-bottom:none}
+.level-num{color:var(--text2);min-width:28px;font-size:.8rem}
+.level-class{color:var(--blue);min-width:90px}
+.level-feats{color:var(--text);flex:1}
+.level-feats span{background:var(--bg2);padding:1px 6px;border-radius:3px;margin:1px 2px;display:inline-block;font-size:.8rem}
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px 16px;font-size:.85rem}
+.skill-row{display:flex;justify-content:space-between;padding:2px 0}
+.skill-name{color:var(--text2)}
+.skill-val{color:var(--text);font-weight:500}
+.levelup-row{display:flex;justify-content:space-between;padding:2px 0;font-size:.85rem}
+.levelup-label{color:var(--text2)}
+.levelup-val{color:var(--gold)}
+.empty-msg{color:var(--text2);font-style:italic;font-size:.85rem;padding:4px 0}
+</style>
+</head>
+<body>
+<div class="header">
+  <button class="back" onclick="showList()" title="Back">&#8592;</button>
+  <h1>DDO Builds</h1>
+</div>
+<div class="container">
+  <div class="build-list-view">
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p style="margin-top:12px">Loading builds...</p>
+    </div>
+    <div class="build-list" id="buildList"></div>
+  </div>
+  <div class="build-detail" id="buildDetail"></div>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+let builds = [];
+let buildCache = {};
+
+async function init() {
+  try {
+    const resp = await fetch('builds.json');
+    if (!resp.ok) throw new Error('Failed to load builds.json');
+    const files = await resp.json();
+    builds = files.filter(f => f.endsWith('.DDOBuild'));
+    renderList();
+  } catch(e) {
+    $('#loading').innerHTML = '<div class="error">Could not load builds.<br><small>' + e.message + '</small></div>';
+  }
+}
+
+function renderList() {
+  $('#loading').style.display = 'none';
+  const listEl = $('#buildList');
+  if (builds.length === 0) {
+    listEl.innerHTML = '<div class="empty-msg">No builds found.</div>';
+    return;
+  }
+  const promises = builds.map(async (file) => {
+    try {
+      const xml = await fetchBuild(file);
+      return { file, xml };
+    } catch(e) {
+      return { file, error: e.message };
+    }
+  });
+  Promise.all(promises).then(results => {
+    listEl.innerHTML = '';
+    results.forEach(r => {
+      const card = document.createElement('div');
+      card.className = 'build-card';
+      if (r.error) {
+        card.innerHTML = '<h2>' + escHtml(cleanName(r.file)) + '</h2><div class="meta">Error loading</div>';
+      } else {
+        const info = parseSummary(r.xml);
+        card.innerHTML = '<h2>' + escHtml(info.name || cleanName(r.file)) + '</h2>'
+          + '<div class="meta">' + escHtml(info.race) + ' &middot; Level ' + info.level + ' &middot; ' + escHtml(info.alignment) + '</div>'
+          + '<div class="classes">' + escHtml(info.classLine) + '</div>';
+      }
+      card.onclick = () => showDetail(r.file);
+      listEl.appendChild(card);
+    });
+  });
+}
+
+async function fetchBuild(file) {
+  if (buildCache[file]) return buildCache[file];
+  const resp = await fetch(file);
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  const text = await resp.text();
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(text, 'text/xml');
+  buildCache[file] = xml;
+  return xml;
+}
+
+function parseSummary(xml) {
+  const life = xml.querySelector('Life');
+  const build = xml.querySelector('Life > Build');
+  if (!life || !build) return { name: '?', race: '?', level: '?', alignment: '?', classLine: '?' };
+  return {
+    name: getText(life, 'Name'),
+    race: getText(life, 'Race'),
+    alignment: getText(life, 'Alignment'),
+    level: getText(build, 'Level'),
+    classLine: getClassLine(build)
+  };
+}
+
+function getClassLine(build) {
+  const levels = build.querySelectorAll('LevelTraining');
+  const counts = {};
+  const order = [];
+  for (const lt of levels) {
+    const cls = getText(lt, 'Class');
+    if (!cls || cls === 'Epic' || cls === 'Legendary') continue;
+    if (!counts[cls]) { counts[cls] = 0; order.push(cls); }
+    counts[cls]++;
+  }
+  return order.map(c => c + ' ' + counts[c]).join(' / ');
+}
+
+async function showDetail(file) {
+  try {
+    const xml = await fetchBuild(file);
+    renderDetail(xml, file);
+    $('.build-list-view').classList.add('hidden');
+    $('#buildDetail').classList.add('active');
+    $('.back').classList.add('show');
+    window.scrollTo(0, 0);
+  } catch(e) {
+    alert('Error loading build: ' + e.message);
+  }
+}
+
+function showList() {
+  $('#buildDetail').classList.remove('active');
+  $('#buildDetail').innerHTML = '';
+  $('.build-list-view').classList.remove('hidden');
+  $('.back').classList.remove('show');
+}
+function renderDetail(xml, file) {
+  const life = xml.querySelector('Life');
+  const build = xml.querySelector('Life > Build');
+  const char = xml.querySelector('Character');
+  if (!life || !build) { $('#buildDetail').innerHTML = '<div class="error">Invalid build file</div>'; return; }
+
+  const name = getText(life, 'Name') || cleanName(file);
+  const race = getText(life, 'Race');
+  const alignment = getText(life, 'Alignment');
+  const level = getText(build, 'Level');
+  const classLine = getClassLine(build);
+
+  let html = '';
+  html += '<div class="detail-header">';
+  html += '<h2>' + escHtml(name) + '</h2>';
+  html += '<div class="info-grid">';
+  html += '<span class="label">Race</span><span class="value">' + escHtml(race) + '</span>';
+  html += '<span class="label">Alignment</span><span class="value">' + escHtml(alignment) + '</span>';
+  html += '<span class="label">Level</span><span class="value">' + escHtml(level) + '</span>';
+  html += '</div>';
+  html += '<div class="classes-summary">' + escHtml(classLine) + '</div>';
+  html += '</div>';
+
+  // Ability Scores
+  html += makeSection('Ability Point Spend', () => {
+    const spend = build.querySelector('AbilitySpend');
+    if (!spend) return '<div class="empty-msg">No ability data</div>';
+    const abilities = [
+      { name: 'STR', spend: 'StrSpend', tome: 'StrTome' },
+      { name: 'DEX', spend: 'DexSpend', tome: 'DexTome' },
+      { name: 'CON', spend: 'ConSpend', tome: 'ConTome' },
+      { name: 'INT', spend: 'IntSpend', tome: 'IntTome' },
+      { name: 'WIS', spend: 'WisSpend', tome: 'WisTome' },
+      { name: 'CHA', spend: 'ChaSpend', tome: 'ChaTome' },
+    ];
+    const available = getText(spend, 'AvailableSpend') || '?';
+    let s = '<div style="font-size:.85rem;color:var(--text2);margin-bottom:8px">Point buy: ' + escHtml(available) + '</div>';
+    s += '<div class="ability-grid">';
+    abilities.forEach(a => {
+      const pts = getText(spend, a.spend) || '0';
+      const tome = char ? getText(char, a.tome) : '0';
+      s += '<div class="ability-box">';
+      s += '<div class="name">' + a.name + '</div>';
+      s += '<div class="spend">' + pts + '</div>';
+      if (tome && tome !== '0') s += '<div class="tome">+' + tome + ' tome</div>';
+      s += '</div>';
+    });
+    s += '</div>';
+    return s;
+  }, true);
+
+  // Level-up ability increases
+  html += makeSection('Level-Up Ability Increases', () => {
+    const lvls = [4,8,12,16,20,24,28,32,36,40];
+    let s = '';
+    let hasAny = false;
+    lvls.forEach(lv => {
+      const el = build.querySelector('Level' + lv);
+      if (el && el.textContent) {
+        hasAny = true;
+        s += '<div class="levelup-row"><span class="levelup-label">Level ' + lv + '</span><span class="levelup-val">' + escHtml(el.textContent) + '</span></div>';
+      }
+    });
+    return hasAny ? s : '<div class="empty-msg">None</div>';
+  });
+
+  // Level Progression
+  html += makeSection('Level Progression', () => {
+    const levels = build.querySelectorAll('LevelTraining');
+    if (!levels.length) return '<div class="empty-msg">No level data</div>';
+    let s = '';
+    let lvNum = 1;
+    for (const lt of levels) {
+      const cls = getText(lt, 'Class');
+      const feats = lt.querySelectorAll('TrainedFeat');
+      let featHtml = '';
+      for (const f of feats) {
+        const fn = getText(f, 'FeatName');
+        const ft = getText(f, 'Type');
+        if (fn) featHtml += '<span title="' + escAttr(ft) + '">' + escHtml(fn) + '</span> ';
+      }
+      s += '<div class="level-row">';
+      s += '<span class="level-num">' + lvNum + '</span>';
+      s += '<span class="level-class">' + escHtml(cls) + '</span>';
+      s += '<span class="level-feats">' + (featHtml || '') + '</span>';
+      s += '</div>';
+      lvNum++;
+    }
+    return s;
+  }, true);
+
+  // Feats grouped by type
+  html += makeSection('All Feats by Type', () => {
+    const levels = build.querySelectorAll('LevelTraining');
+    const groups = {};
+    for (const lt of levels) {
+      for (const f of lt.querySelectorAll('TrainedFeat')) {
+        const fn = getText(f, 'FeatName');
+        const ft = getText(f, 'Type') || 'Other';
+        const lv = getText(f, 'LevelTrainedAt');
+        if (!fn) continue;
+        if (!groups[ft]) groups[ft] = [];
+        groups[ft].push({ name: fn, level: lv });
+      }
+    }
+    const specialFeats = life.querySelectorAll('SpecialFeats > TrainedFeat');
+    for (const f of specialFeats) {
+      const fn = getText(f, 'FeatName');
+      const ft = getText(f, 'Type') || 'Special';
+      if (!fn) continue;
+      if (!groups[ft]) groups[ft] = [];
+      groups[ft].push({ name: fn, level: '0' });
+    }
+    if (char) {
+      const charFeats = char.querySelectorAll(':scope > SpecialFeats > TrainedFeat');
+      for (const f of charFeats) {
+        const fn = getText(f, 'FeatName');
+        const ft = getText(f, 'Type') || 'Special';
+        if (!fn) continue;
+        if (!groups[ft]) groups[ft] = [];
+        if (!groups[ft].some(x => x.name === fn)) {
+          groups[ft].push({ name: fn, level: '0' });
+        }
+      }
+    }
+    if (Object.keys(groups).length === 0) return '<div class="empty-msg">No feats</div>';
+    let s = '';
+    const sortedTypes = Object.keys(groups).sort((a, b) => {
+      if (a === 'Standard') return -1;
+      if (b === 'Standard') return 1;
+      return a.localeCompare(b);
+    });
+    for (const type of sortedTypes) {
+      s += '<div class="feat-group"><h4>' + escHtml(type) + '</h4><ul class="feat-list">';
+      groups[type].forEach(f => {
+        const lvInfo = (f.level && f.level !== '0') ? ' (Lv ' + f.level + ')' : '';
+        s += '<li>' + escHtml(f.name) + '<span class="feat-type">' + escHtml(lvInfo) + '</span></li>';
+      });
+      s += '</ul></div>';
+    }
+    return s;
+  });
+
+  // Enhancement Trees
+  html += makeSection('Enhancement Trees', () => {
+    const trees = build.querySelectorAll('Enhancement_SelectedTrees > TreeName');
+    if (!trees.length) return '<div class="empty-msg">None selected</div>';
+    let s = '';
+    for (const t of trees) {
+      if (t.textContent && t.textContent !== 'No selection')
+        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
+    }
+    return s || '<div class="empty-msg">None selected</div>';
+  }, true);
+
+  // Destiny Trees
+  html += makeSection('Epic Destiny Trees', () => {
+    const trees = build.querySelectorAll('Destiny_SelectedTrees > TreeName');
+    if (!trees.length) return '<div class="empty-msg">None selected</div>';
+    let s = '';
+    for (const t of trees) {
+      if (t.textContent && t.textContent !== 'No selection')
+        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
+    }
+    return s || '<div class="empty-msg">None selected</div>';
+  });
+
+  // Reaper Trees
+  html += makeSection('Reaper Trees', () => {
+    const trees = build.querySelectorAll('Reaper_SelectedTrees > TreeName');
+    if (!trees.length) return '<div class="empty-msg">None selected</div>';
+    let s = '';
+    for (const t of trees) {
+      if (t.textContent && t.textContent !== 'No selection')
+        s += '<div class="tree-name">' + escHtml(t.textContent) + '</div>';
+    }
+    return s || '<div class="empty-msg">None selected</div>';
+  });
+
+  // Skills summary
+  html += makeSection('Skills (Total Ranks Trained)', () => {
+    const levels = build.querySelectorAll('LevelTraining');
+    const skills = {};
+    for (const lt of levels) {
+      for (const ts of lt.querySelectorAll('TrainedSkill')) {
+        const sk = getText(ts, 'Skill');
+        if (sk) skills[sk] = (skills[sk] || 0) + 1;
+      }
+    }
+    if (Object.keys(skills).length === 0) return '<div class="empty-msg">No skills trained</div>';
+    const sorted = Object.entries(skills).sort((a, b) => b[1] - a[1]);
+    let s = '<div class="skills-grid">';
+    sorted.forEach(([name, count]) => {
+      s += '<div class="skill-row"><span class="skill-name">' + escHtml(name) + '</span><span class="skill-val">' + count + '</span></div>';
+    });
+    s += '</div>';
+    return s;
+  });
+
+  $('#buildDetail').innerHTML = html;
+
+  $$('.section-header').forEach(h => {
+    h.addEventListener('click', () => {
+      const body = h.nextElementSibling;
+      const arrow = h.querySelector('.arrow');
+      body.classList.toggle('open');
+      arrow.classList.toggle('open');
+    });
+  });
+}
+
+function makeSection(title, contentFn, startOpen) {
+  const content = contentFn();
+  const openClass = startOpen ? ' open' : '';
+  return '<div class="section">'
+    + '<div class="section-header"><h3>' + escHtml(title) + '</h3><span class="arrow' + openClass + '">&#9654;</span></div>'
+    + '<div class="section-body' + openClass + '">' + content + '</div>'
+    + '</div>';
+}
+
+function getText(parent, tag) {
+  if (!parent) return '';
+  const el = parent.querySelector(':scope > ' + tag);
+  return el ? el.textContent.trim() : '';
+}
+function cleanName(file) { return file.replace(/\.DDOBuild$/i, ''); }
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function escAttr(s) { return escHtml(s); }
+
+window.addEventListener('popstate', () => {
+  if ($('#buildDetail').classList.contains('active')) showList();
+});
+
+init();
+</script>
+</body>
+</html>
