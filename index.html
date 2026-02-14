@@ -99,9 +99,7 @@ a{color:var(--blue);text-decoration:none}
   <div class="view" id="detailView"></div>
 </div>
 <script>
-)V1"
-// Part 2: JavaScript â€” navigation + file list + lives list
-R"V2(const $ = s => document.querySelector(s);
+const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 let buildFiles = [];
 let buildCache = {};
@@ -177,7 +175,7 @@ function renderFileList() {
 
 async function fetchBuild(file) {
   if (buildCache[file]) return buildCache[file];
-  const resp = await fetch(file);
+  const resp = await fetch(encodeURIComponent(file));
   if (!resp.ok) throw new Error('HTTP ' + resp.status);
   const text = await resp.text();
   const xml = new DOMParser().parseFromString(text, 'text/xml');
@@ -189,11 +187,11 @@ function openFile(file, xml) {
   const lives = xml.querySelectorAll('Character > Life');
   if (lives.length === 0) return;
   if (lives.length === 1) {
-    // Single life â€” check builds
+    // Single life — check builds
     const life = lives[0];
     const builds = life.querySelectorAll(':scope > Build');
     if (builds.length <= 1) {
-      // Single life, single build â€” straight to detail
+      // Single life, single build — straight to detail
       navStack.push({ view: '#fileListView', title: 'DDO Builds' });
       renderDetail(xml, life, builds[0] || life, file);
       showView('#detailView', gt(life, 'Name') || cleanName(file));
@@ -271,7 +269,7 @@ function renderBuildsList(xml, life, builds, file) {
     card.onclick = ((idx) => () => {
       navStack.push({ view: '#buildsView', title: lifeName });
       renderDetail(xml, life, builds[idx], file);
-      showView('#detailView', lifeName + ' â€” ' + (idx === 0 ? 'Current' : 'Build ' + (idx + 1)));
+      showView('#detailView', lifeName + ' — ' + (idx === 0 ? 'Current' : 'Build ' + (idx + 1)));
     })(i);
     listEl.appendChild(card);
   }
@@ -289,9 +287,7 @@ function getClassLine(build) {
   }
   return order.map(c => c + ' ' + counts[c]).join(' / ');
 }
-)V2"
-// Part 3: JavaScript â€” detail rendering
-R"V3(function renderDetail(xml, life, build, file) {
+function renderDetail(xml, life, build, file) {
   const char = xml.querySelector('Character');
   const name = gt(life, 'Name') || cleanName(file);
   const race = gt(life, 'Race');
@@ -364,9 +360,7 @@ R"V3(function renderDetail(xml, life, build, file) {
     }
     return s;
   }, true);
-)V3"
-// Part 4: JavaScript â€” feats, trees, skills, helpers
-R"V4(
+
   html += makeSection('All Feats by Type', () => {
     const groups = {};
     for (const lt of build.querySelectorAll('LevelTraining')) {
