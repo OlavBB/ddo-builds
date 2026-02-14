@@ -19,20 +19,20 @@ a{color:var(--blue);text-decoration:none}
 .header .back{display:none;background:none;border:none;color:var(--accent);font-size:1.4rem;cursor:pointer;padding:4px 8px}
 .header .back.show{display:block}
 .container{max-width:800px;margin:0 auto;padding:12px}
-.build-list{display:flex;flex-direction:column;gap:10px}
+.card-list{display:flex;flex-direction:column;gap:10px}
 .build-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;cursor:pointer;transition:border-color .2s,transform .1s}
 .build-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .build-card:active{transform:translateY(0)}
 .build-card h2{font-size:1rem;color:var(--gold);margin-bottom:4px}
 .build-card .meta{font-size:.85rem;color:var(--text2)}
 .build-card .classes{font-size:.9rem;color:var(--blue);margin-top:4px}
+.build-card .life-count{font-size:.8rem;color:var(--accent);margin-top:4px}
 .loading{text-align:center;padding:40px;color:var(--text2)}
 .loading .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .error{text-align:center;padding:40px;color:var(--accent)}
-.build-detail{display:none}
-.build-detail.active{display:block}
-.build-list-view.hidden{display:none}
+.view{display:none}
+.view.active{display:block}
 .detail-header{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px}
 .detail-header h2{color:var(--gold);font-size:1.3rem;margin-bottom:8px}
 .detail-header .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;font-size:.9rem}
@@ -72,49 +72,74 @@ a{color:var(--blue);text-decoration:none}
 .levelup-label{color:var(--text2)}
 .levelup-val{color:var(--gold)}
 .empty-msg{color:var(--text2);font-style:italic;font-size:.85rem;padding:4px 0}
+.life-badge{display:inline-block;background:var(--accent2);color:var(--text);font-size:.75rem;padding:2px 8px;border-radius:10px;margin-left:8px}
 </style>
 </head>
 <body>
 <div class="header">
-  <button class="back" onclick="showList()" title="Back">&#8592;</button>
-  <h1>DDO Builds</h1>
+  <button class="back" id="backBtn" title="Back">&#8592;</button>
+  <h1 id="headerTitle">DDO Builds</h1>
 </div>
 <div class="container">
-  <div class="build-list-view">
+  <div class="view active" id="fileListView">
     <div class="loading" id="loading">
       <div class="spinner"></div>
       <p style="margin-top:12px">Loading builds...</p>
     </div>
-    <div class="build-list" id="buildList"></div>
+    <div class="card-list" id="fileList"></div>
   </div>
-  <div class="build-detail" id="buildDetail"></div>
+  <div class="view" id="livesView">
+    <div class="card-list" id="livesList"></div>
+  </div>
+  <div class="view" id="detailView"></div>
 </div>
 <script>
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
-let builds = [];
+let buildFiles = [];
 let buildCache = {};
+let navStack = []; // tracks navigation for back button
+
+function showView(id, title) {
+  $$('.view').forEach(v => v.classList.remove('active'));
+  $(id).classList.add('active');
+  $('#headerTitle').textContent = title || 'DDO Builds';
+  const backBtn = $('#backBtn');
+  if (navStack.length > 0) {
+    backBtn.classList.add('show');
+  } else {
+    backBtn.classList.remove('show');
+  }
+  window.scrollTo(0, 0);
+}
+
+$('#backBtn').addEventListener('click', () => {
+  if (navStack.length > 0) {
+    const prev = navStack.pop();
+    showView(prev.view, prev.title);
+  }
+});
 
 async function init() {
   try {
     const resp = await fetch('builds.json');
     if (!resp.ok) throw new Error('Failed to load builds.json');
     const files = await resp.json();
-    builds = files.filter(f => f.endsWith('.DDOBuild'));
-    renderList();
+    buildFiles = files.filter(f => f.endsWith('.DDOBuild'));
+    renderFileList();
   } catch(e) {
     $('#loading').innerHTML = '<div class="error">Could not load builds.<br><small>' + e.message + '</small></div>';
   }
 }
 
-function renderList() {
+function renderFileList() {
   $('#loading').style.display = 'none';
-  const listEl = $('#buildList');
-  if (builds.length === 0) {
+  const listEl = $('#fileList');
+  if (buildFiles.length === 0) {
     listEl.innerHTML = '<div class="empty-msg">No builds found.</div>';
     return;
   }
-  const promises = builds.map(async (file) => {
+  const promises = buildFiles.map(async (file) => {
     try {
       const xml = await fetchBuild(file);
       return { file, xml };
@@ -129,13 +154,24 @@ function renderList() {
       card.className = 'build-card';
       if (r.error) {
         card.innerHTML = '<h2>' + escHtml(cleanName(r.file)) + '</h2><div class="meta">Error loading</div>';
+        card.onclick = () => {};
       } else {
-        const info = parseSummary(r.xml);
-        card.innerHTML = '<h2>' + escHtml(info.name || cleanName(r.file)) + '</h2>'
-          + '<div class="meta">' + escHtml(info.race) + ' &middot; Level ' + info.level + ' &middot; ' + escHtml(info.alignment) + '</div>'
-          + '<div class="classes">' + escHtml(info.classLine) + '</div>';
+        const life = r.xml.querySelector('Life');
+        const charName = life ? getText(life, 'Name') : '';
+        const race = life ? getText(life, 'Race') : '';
+        const builds = life ? life.querySelectorAll(':scope > Build') : [];
+        const buildCount = builds.length;
+        // Show info from first (current) build
+        const firstBuild = builds[0];
+        const level = firstBuild ? getText(firstBuild, 'Level') : '?';
+        const classLine = firstBuild ? getClassLine(firstBuild) : '?';
+
+        card.innerHTML = '<h2>' + escHtml(charName || cleanName(r.file)) + '</h2>'
+          + '<div class="meta">' + escHtml(race) + ' &middot; Level ' + escHtml(level) + '</div>'
+          + '<div class="classes">' + escHtml(classLine) + '</div>'
+          + (buildCount > 1 ? '<div class="life-count">' + buildCount + ' lives</div>' : '');
+        card.onclick = () => openFile(r.file, r.xml);
       }
-      card.onclick = () => showDetail(r.file);
       listEl.appendChild(card);
     });
   });
@@ -152,17 +188,47 @@ async function fetchBuild(file) {
   return xml;
 }
 
-function parseSummary(xml) {
+function openFile(file, xml) {
   const life = xml.querySelector('Life');
-  const build = xml.querySelector('Life > Build');
-  if (!life || !build) return { name: '?', race: '?', level: '?', alignment: '?', classLine: '?' };
-  return {
-    name: getText(life, 'Name'),
-    race: getText(life, 'Race'),
-    alignment: getText(life, 'Alignment'),
-    level: getText(build, 'Level'),
-    classLine: getClassLine(build)
-  };
+  if (!life) return;
+  const builds = life.querySelectorAll(':scope > Build');
+  if (builds.length === 1) {
+    // Only one build — go straight to detail
+    navStack.push({ view: '#fileListView', title: 'DDO Builds' });
+    renderDetail(xml, life, builds[0], file, 0);
+    showView('#detailView', getText(life, 'Name') || cleanName(file));
+  } else {
+    // Multiple builds — show lives list
+    navStack.push({ view: '#fileListView', title: 'DDO Builds' });
+    renderLivesList(xml, life, builds, file);
+    showView('#livesView', getText(life, 'Name') || cleanName(file));
+  }
+}
+
+function renderLivesList(xml, life, builds, file) {
+  const listEl = $('#livesList');
+  listEl.innerHTML = '';
+  const charName = getText(life, 'Name') || cleanName(file);
+  const race = getText(life, 'Race');
+
+  for (let i = 0; i < builds.length; i++) {
+    const build = builds[i];
+    const level = getText(build, 'Level');
+    const classLine = getClassLine(build);
+    const label = i === 0 ? 'Current Life' : 'Past Life ' + i;
+
+    const card = document.createElement('div');
+    card.className = 'build-card';
+    card.innerHTML = '<h2>' + escHtml(label) + '<span class="life-badge">Life ' + (i + 1) + '</span></h2>'
+      + '<div class="meta">' + escHtml(race) + ' &middot; Level ' + escHtml(level) + '</div>'
+      + '<div class="classes">' + escHtml(classLine) + '</div>';
+    card.onclick = ((idx) => () => {
+      navStack.push({ view: '#livesView', title: charName });
+      renderDetail(xml, life, builds[idx], file, idx);
+      showView('#detailView', charName + ' — ' + (idx === 0 ? 'Current' : 'Past Life ' + idx));
+    })(i);
+    listEl.appendChild(card);
+  }
 }
 
 function getClassLine(build) {
@@ -177,32 +243,8 @@ function getClassLine(build) {
   }
   return order.map(c => c + ' ' + counts[c]).join(' / ');
 }
-
-async function showDetail(file) {
-  try {
-    const xml = await fetchBuild(file);
-    renderDetail(xml, file);
-    $('.build-list-view').classList.add('hidden');
-    $('#buildDetail').classList.add('active');
-    $('.back').classList.add('show');
-    window.scrollTo(0, 0);
-  } catch(e) {
-    alert('Error loading build: ' + e.message);
-  }
-}
-
-function showList() {
-  $('#buildDetail').classList.remove('active');
-  $('#buildDetail').innerHTML = '';
-  $('.build-list-view').classList.remove('hidden');
-  $('.back').classList.remove('show');
-}
-function renderDetail(xml, file) {
-  const life = xml.querySelector('Life');
-  const build = xml.querySelector('Life > Build');
+function renderDetail(xml, life, build, file, buildIdx) {
   const char = xml.querySelector('Character');
-  if (!life || !build) { $('#buildDetail').innerHTML = '<div class="error">Invalid build file</div>'; return; }
-
   const name = getText(life, 'Name') || cleanName(file);
   const race = getText(life, 'Race');
   const alignment = getText(life, 'Alignment');
@@ -396,7 +438,7 @@ function renderDetail(xml, file) {
     return s;
   });
 
-  $('#buildDetail').innerHTML = html;
+  $('#detailView').innerHTML = html;
 
   $$('.section-header').forEach(h => {
     h.addEventListener('click', () => {
@@ -430,7 +472,7 @@ function escHtml(s) {
 function escAttr(s) { return escHtml(s); }
 
 window.addEventListener('popstate', () => {
-  if ($('#buildDetail').classList.contains('active')) showList();
+  if (navStack.length > 0) $('#backBtn').click();
 });
 
 init();
