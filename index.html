@@ -327,36 +327,6 @@ function renderDetail(xml, life, build, file) {
     return s + '</table>';
   }, true);
 
-  // Past Lives
-  h += makeSection('Past Lives', () => {
-    const pls = [];
-    for (const f of life.querySelectorAll('SpecialFeats > TrainedFeat')) {
-      const fn=gt(f,'FeatName'),ft=gt(f,'Type');
-      if (fn&&ft&&ft.includes('PastLife')) pls.push({name:fn,type:ft});
-    }
-    if (ch) {
-      for (const f of ch.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
-        const fn=gt(f,'FeatName'),ft=gt(f,'Type');
-        if (fn&&ft&&ft.includes('PastLife')&&!pls.some(x=>x.name===fn&&x.type===ft)) pls.push({name:fn,type:ft});
-      }
-    }
-    if (!pls.length) return '<div class="empty-msg">No past lives</div>';
-    const grp = {};
-    pls.forEach(p => { if(!grp[p.type])grp[p.type]=[]; grp[p.type].push(p.name); });
-    const labels = {'HeroicPastLife':'Heroic Past Lives','EpicPastLife':'Epic Past Lives',
-      'IconicPastLife':'Iconic Past Lives','RacialPastLife':'Racial Past Lives'};
-    let s = '';
-    for (const [type,names] of Object.entries(grp)) {
-      const cnt = {};
-      names.forEach(n => cnt[n]=(cnt[n]||0)+1);
-      s += '<div class="pl-g"><h4>' + esc(labels[type]||type) + '</h4>';
-      for (const [n,c] of Object.entries(cnt))
-        s += '<div class="pl-i">' + esc(n) + (c>1?' ('+c+')':'') + '</div>';
-      s += '</div>';
-    }
-    return s;
-  });
-
   // Level Progression — forum export style with class counts and colored feat types
   h += makeSection('Level Progression', () => {
     const levels = build.querySelectorAll('LevelTraining');
@@ -387,6 +357,22 @@ function renderDetail(xml, life, build, file) {
   h += makeSection('Enhancements', () => renderTrees(build,'Enhancement'), true);
   h += makeSection('Epic Destinies', () => renderTrees(build,'Destiny'));
   h += makeSection('Reaper Trees', () => renderTrees(build,'Reaper'));
+
+  // Skills
+  h += makeSection('Skills', () => {
+    const skills={};
+    for(const lt of build.querySelectorAll('LevelTraining'))
+      for(const ts of lt.querySelectorAll('TrainedSkill')){
+        const sk=gt(ts,'Skill');
+        if(sk) skills[sk]=(skills[sk]||0)+1;
+      }
+    if(!Object.keys(skills).length) return '<div class="empty-msg">No skills trained</div>';
+    let s='<div class="sg">';
+    Object.entries(skills).sort((a,b)=>b[1]-a[1]).forEach(([n,c])=>{
+      s+='<div class="sr"><span class="sn">'+esc(n)+'</span><span class="sv">'+c+'</span></div>';
+    });
+    return s+'</div>';
+  });
 
   // All Feats by Type
   h += makeSection('All Feats by Type', () => {
@@ -426,20 +412,34 @@ function renderDetail(xml, life, build, file) {
     return s;
   });
 
-  // Skills
-  h += makeSection('Skills', () => {
-    const skills={};
-    for(const lt of build.querySelectorAll('LevelTraining'))
-      for(const ts of lt.querySelectorAll('TrainedSkill')){
-        const sk=gt(ts,'Skill');
-        if(sk) skills[sk]=(skills[sk]||0)+1;
+  // Past Lives
+  h += makeSection('Past Lives', () => {
+    const pls = [];
+    for (const f of life.querySelectorAll('SpecialFeats > TrainedFeat')) {
+      const fn=gt(f,'FeatName'),ft=gt(f,'Type');
+      if (fn&&ft&&ft.includes('PastLife')) pls.push({name:fn,type:ft});
+    }
+    if (ch) {
+      for (const f of ch.querySelectorAll(':scope > SpecialFeats > TrainedFeat')) {
+        const fn=gt(f,'FeatName'),ft=gt(f,'Type');
+        if (fn&&ft&&ft.includes('PastLife')&&!pls.some(x=>x.name===fn&&x.type===ft)) pls.push({name:fn,type:ft});
       }
-    if(!Object.keys(skills).length) return '<div class="empty-msg">No skills trained</div>';
-    let s='<div class="sg">';
-    Object.entries(skills).sort((a,b)=>b[1]-a[1]).forEach(([n,c])=>{
-      s+='<div class="sr"><span class="sn">'+esc(n)+'</span><span class="sv">'+c+'</span></div>';
-    });
-    return s+'</div>';
+    }
+    if (!pls.length) return '<div class="empty-msg">No past lives</div>';
+    const grp = {};
+    pls.forEach(p => { if(!grp[p.type])grp[p.type]=[]; grp[p.type].push(p.name); });
+    const labels = {'HeroicPastLife':'Heroic Past Lives','EpicPastLife':'Epic Past Lives',
+      'IconicPastLife':'Iconic Past Lives','RacialPastLife':'Racial Past Lives'};
+    let s = '';
+    for (const [type,names] of Object.entries(grp)) {
+      const cnt = {};
+      names.forEach(n => cnt[n]=(cnt[n]||0)+1);
+      s += '<div class="pl-g"><h4>' + esc(labels[type]||type) + '</h4>';
+      for (const [n,c] of Object.entries(cnt))
+        s += '<div class="pl-i">' + esc(n) + (c>1?' ('+c+')':'') + '</div>';
+      s += '</div>';
+    }
+    return s;
   });
 
   $('#detailView').innerHTML = h;
