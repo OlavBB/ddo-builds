@@ -353,11 +353,6 @@ function renderDetail(xml, life, build, file) {
     return s;
   }, true);
 
-  // Enhancement Trees — with individual abilities
-  h += makeSection('Enhancements', () => renderTrees(build,'Enhancement'), true);
-  h += makeSection('Epic Destinies', () => renderTrees(build,'Destiny'));
-  h += makeSection('Reaper Trees', () => renderTrees(build,'Reaper'));
-
   // Skills
   h += makeSection('Skills', () => {
     const skills={};
@@ -373,6 +368,11 @@ function renderDetail(xml, life, build, file) {
     });
     return s+'</div>';
   });
+
+  // Enhancement Trees — with individual abilities
+  h += makeSection('Enhancements', () => renderTrees(build,'Enhancement'), true);
+  h += makeSection('Epic Destinies', () => renderTrees(build,'Destiny'));
+  h += makeSection('Reaper Trees', () => renderTrees(build,'Reaper'));
 
   // All Feats by Type
   h += makeSection('All Feats by Type', () => {
