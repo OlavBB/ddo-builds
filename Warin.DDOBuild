@@ -202,6 +202,21 @@
         <Type>IconicPastLife</Type>
         <LevelTrainedAt>0</LevelTrainedAt>
       </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Past Life: Purple Dragon Knight</FeatName>
+        <Type>IconicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Past Life: Divine Sphere: Ancient Blessings</FeatName>
+        <Type>EpicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Past Life: Divine Sphere: Ancient Blessings</FeatName>
+        <Type>EpicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
     </SpecialFeats>
     <SkillTomes>
       <Balance>0</Balance>
@@ -1392,23 +1407,23 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>EKSorcImprovedKnightsTransformation</EnhancementName>
+            <EnhancementName>Whisperdoom's FangEKSorcImprovedKnightsTransformation</EnhancementName>
             <Ranks>1</Ranks>
             <IsTier5/>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>EKSorcKnightsArcanum</EnhancementName>
-            <Selection>Knight's Controller</Selection>
+            <EnhancementName/>
+            <Selection>Knight's ControllerThe fang of Whisperdoom, great spider of Splinterskull, drips with toxic venom.</Selection>
             <Ranks>1</Ranks>
             <IsTier5/>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>EKSorcCore5</EnhancementName>
+            <EnhancementName>EKSorcCore5Assault on Splinterskull, End reward</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
             <EnhancementName>EKSorcEldritchTempest</EnhancementName>
-            <Ranks>3</Ranks>
+            <Ranks>6</Ranks>
             <IsTier5/>
           </TrainedEnhancement>
           <TrainedEnhancement>
@@ -16482,42 +16497,18 @@
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>28</SkillPointsAvailable>
-          <SkillPointsSpent>20</SkillPointsSpent>
+          <SkillPointsSpent>28</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Single Weapon Fighting</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>0</LevelTrainedAt>
           </TrainedFeat>
           <TrainedFeat>
-            <FeatName>Spell Focus: Enchantment</FeatName>
+            <FeatName>Quicken Spell</FeatName>
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>0</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -16552,18 +16543,60 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>8</SkillPointsAvailable>
-          <SkillPointsSpent>6</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>8</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16574,24 +16607,59 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>8</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>8</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Precision</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>2</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
+            <Skill>Spellcraft</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Wizard</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16602,54 +16670,34 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
           </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spot</Skill>
-          </TrainedSkill>
-        </LevelTraining>
-        <LevelTraining>
-          <Class>Wizard</Class>
-          <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
+            <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spellcraft</Skill>
+            <Skill>Swim</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Heal</Skill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Tumble</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spot</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Extend Spell</FeatName>
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>4</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -16659,28 +16707,34 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Dodge</FeatName>
+            <FeatName>Insightful Reflexes</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>5</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -16690,22 +16744,28 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16716,22 +16776,28 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16742,28 +16808,37 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Mobility</FeatName>
+            <FeatName>Dodge</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>8</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -16773,28 +16848,37 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Empower Spell</FeatName>
+            <FeatName>Maximize Spell</FeatName>
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>9</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -16804,22 +16888,31 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16830,30 +16923,74 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Single Weapon Fighting</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>11</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
+            <Skill>Spellcraft</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Wizard</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16864,25 +17001,34 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16893,93 +17039,44 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
           </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Search</Skill>
-          </TrainedSkill>
-        </LevelTraining>
-        <LevelTraining>
-          <Class>Wizard</Class>
-          <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spellcraft</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Heal</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Tumble</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spot</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Whirlwind Attack</FeatName>
-            <Type>Standard</Type>
-            <LevelTrainedAt>14</LevelTrainedAt>
-          </TrainedFeat>
-          <TrainedFeat>
-            <FeatName>Quicken Spell</FeatName>
+            <FeatName>Empower Spell</FeatName>
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>14</LevelTrainedAt>
           </TrainedFeat>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spellcraft</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Heal</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Tumble</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Spot</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Search</Skill>
-          </TrainedSkill>
-        </LevelTraining>
-        <LevelTraining>
-          <Class>Wizard</Class>
-          <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <TrainedFeat>
+            <FeatName>Mobility</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -16990,25 +17087,34 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>12</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -17019,31 +17125,84 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
+          <SkillPointsSpent>12</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Spellcraft</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Wizard</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>12</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Critical: Slashing Weapons</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>17</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -17053,25 +17212,37 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>9</SkillPointsSpent>
-          <TrainedSkill>
-            <Skill>Balance</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
-          </TrainedSkill>
+          <SkillPointsSpent>12</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
@@ -17082,24 +17253,39 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Spot</Skill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Search</Skill>
+            <Skill>Swim</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
-          <SkillPointsSpent>9</SkillPointsSpent>
+          <SkillPointsSpent>13</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Maximize Spell</FeatName>
+            <FeatName>Spell Focus: Enchantment</FeatName>
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>19</LevelTrainedAt>
           </TrainedFeat>
@@ -17107,19 +17293,31 @@
             <Skill>Spellcraft</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Concentration</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Repair</Skill>
@@ -17171,7 +17369,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Crush Weakness</FeatName>
+            <FeatName>Doublestrike</FeatName>
             <Type>Epic Destiny Feat</Type>
             <LevelTrainedAt>24</LevelTrainedAt>
           </TrainedFeat>
@@ -17186,7 +17384,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Patience</FeatName>
+            <FeatName>Eerie Aim</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>26</LevelTrainedAt>
           </TrainedFeat>
@@ -17196,7 +17394,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Harbinger of Chaos</FeatName>
+            <FeatName>Arcane Warrior</FeatName>
             <Type>Epic Destiny Feat</Type>
             <LevelTrainedAt>27</LevelTrainedAt>
           </TrainedFeat>
@@ -17211,13 +17409,13 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Scion of Arborea</FeatName>
-            <Type>Legendary Feat</Type>
+            <FeatName>Embolden Spell</FeatName>
+            <Type>Epic Feat</Type>
             <LevelTrainedAt>29</LevelTrainedAt>
           </TrainedFeat>
           <TrainedFeat>
-            <FeatName>Spring Attack</FeatName>
-            <Type>Epic Feat</Type>
+            <FeatName>Scion of the Feywild</FeatName>
+            <Type>Legendary Feat</Type>
             <LevelTrainedAt>29</LevelTrainedAt>
           </TrainedFeat>
         </LevelTraining>
@@ -17226,7 +17424,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Arcane Warrior</FeatName>
+            <FeatName>Harbinger of Chaos</FeatName>
             <Type>Epic Destiny Feat</Type>
             <LevelTrainedAt>30</LevelTrainedAt>
           </TrainedFeat>
@@ -17471,11 +17669,6 @@
             <EnhancementName>DeadlyBlades</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DoubleDaggers</EnhancementName>
-            <Selection>Single Dagger</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Harper Agent</TreeName>
@@ -17558,12 +17751,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>20</SnapshotStrength>
-          <SnapshotIntelligence>40</SnapshotIntelligence>
-          <SnapshotWisdom>20</SnapshotWisdom>
-          <SnapshotDexterity>24</SnapshotDexterity>
-          <SnapshotConstitution>34</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>41</SnapshotIntelligence>
+          <SnapshotWisdom>22</SnapshotWisdom>
+          <SnapshotDexterity>20</SnapshotDexterity>
+          <SnapshotConstitution>30</SnapshotConstitution>
+          <SnapshotCharisma>16</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -21990,12 +22183,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>40</SnapshotStrength>
-          <SnapshotIntelligence>18</SnapshotIntelligence>
-          <SnapshotWisdom>18</SnapshotWisdom>
-          <SnapshotDexterity>22</SnapshotDexterity>
-          <SnapshotConstitution>28</SnapshotConstitution>
-          <SnapshotCharisma>18</SnapshotCharisma>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>41</SnapshotIntelligence>
+          <SnapshotWisdom>22</SnapshotWisdom>
+          <SnapshotDexterity>20</SnapshotDexterity>
+          <SnapshotConstitution>30</SnapshotConstitution>
+          <SnapshotCharisma>16</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -22013,7 +22206,7 @@
     </Life>
     <GuildLevel>198</GuildLevel>
     <ApplyGuildBuffs>1</ApplyGuildBuffs>
-    <ActiveLifeIndex>9</ActiveLifeIndex>
-    <ActiveBuildIndex>0</ActiveBuildIndex>
+    <ActiveLifeIndex>6</ActiveLifeIndex>
+    <ActiveBuildIndex>4</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
