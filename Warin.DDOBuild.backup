@@ -18629,12 +18629,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>20</SnapshotStrength>
+          <SnapshotIntelligence>40</SnapshotIntelligence>
+          <SnapshotWisdom>20</SnapshotWisdom>
+          <SnapshotDexterity>24</SnapshotDexterity>
+          <SnapshotConstitution>34</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -21031,12 +21031,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>40</SnapshotStrength>
+          <SnapshotIntelligence>18</SnapshotIntelligence>
+          <SnapshotWisdom>18</SnapshotWisdom>
+          <SnapshotDexterity>22</SnapshotDexterity>
+          <SnapshotConstitution>28</SnapshotConstitution>
+          <SnapshotCharisma>18</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
