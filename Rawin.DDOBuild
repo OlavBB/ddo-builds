@@ -5762,163 +5762,17 @@
           <TreeName>Human</TreeName>
           <TreeName>Inquisitive</TreeName>
           <TreeName>Harper Agent</TreeName>
-          <TreeName>Battle Engineer</TreeName>
+          <TreeName>Divine Disciple</TreeName>
           <TreeName>Warpriest</TreeName>
-          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Arcanotechnician</TreeName>
           <TreeName>Renegade Mastermaker</TreeName>
-          <Tier5Tree>Harper Agent</Tier5Tree>
+          <Tier5Tree>Inquisitive</Tier5Tree>
         </Enhancement_SelectedTrees>
         <Reaper_SelectedTrees>
           <TreeName>Dire Thaumaturge</TreeName>
           <TreeName>Dread Adversary</TreeName>
           <TreeName>Grim Barricade</TreeName>
         </Reaper_SelectedTrees>
-        <EnhancementSpendInTree>
-          <TreeName>Harper Agent</TreeName>
-          <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperEnchantment</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>StrategicCombatI</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperKnowTheAngles</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore2</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperVersatileAdeptI</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>StrategicCombatII</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore3</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperKnowYourFoe</EnhancementName>
-            <Selection>Favored Enemy: Evil Outsider</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperAbilityScoreI</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperVersatileAdeptII</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperVigorOfLifeI</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperAbilityScoreII</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperVersatileAdeptIII</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore4</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperWeaponEnchantment</EnhancementName>
-            <Selection>Harper Enchantment of Righteousness</Selection>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperVersatileAdeptIV</EnhancementName>
-            <Ranks>3</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore5</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperMagicOfPatience</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperCore6</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-        </EnhancementSpendInTree>
-        <EnhancementSpendInTree>
-          <TreeName>Battle Engineer</TreeName>
-          <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>BECore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEWeaponTrainingI</EnhancementName>
-            <Selection>Crossbow Training I</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEFieldEngineer</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEThaumaturgicalConduits</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BECore2</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEExtraActionBoost</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEWeaponTrainingII</EnhancementName>
-            <Selection>Crossbow Training II</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEWeaponTrainingIII</EnhancementName>
-            <Selection>Crossbow Training III</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEAbilityScoreI</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEAbilityEngine</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEAbilityScoreII</EnhancementName>
-            <Selection>+1 Intelligence</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-        </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Deepwood Stalker</TreeName>
           <TreeVersion>1</TreeVersion>
@@ -5934,6 +5788,219 @@
             <EnhancementName>RMCore1</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>RMEasilyFixed</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Inquisitive</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveDualShooter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveEyeForAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveLawOnYourSide</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedLaw</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdept</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveObservation</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdeptII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveWhatFirst</EnhancementName>
+            <Selection>Shoot First</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveAbilityI</EnhancementName>
+            <Selection>Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedObservation</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdeptIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveInquisitionStyle</EnhancementName>
+            <Selection>Divine Inquisition</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveGreaterLaw</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveAbilityII</EnhancementName>
+            <Selection>Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveWhatLater</EnhancementName>
+            <Selection>Ask Questions Later</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveNoHoldsBarred</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedUncannyDodge</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveInquisitorsPath</EnhancementName>
+            <Selection>Jaded</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveDiplomaticImmunity</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore6</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Harper Agent</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperEnchantment</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperKnowTheAngles</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore2</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Warpriest</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore1</EnhancementName>
+            <Selection>Smite Foe (Ranged)</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPToughness</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPWallOfSteel</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPInflame</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPGreaterInflame</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPHolyStriker</EnhancementName>
+            <Selection>Holy Sniper</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Frenzied Berserker</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeVersion>1</TreeVersion>
         </EnhancementSpendInTree>
         <DestinySpendInTree>
           <TreeName>Fatesinger</TreeName>
@@ -6151,7 +6218,7 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
+          <SnapshotIntelligence>32</SnapshotIntelligence>
           <SnapshotWisdom>15</SnapshotWisdom>
           <SnapshotDexterity>21</SnapshotDexterity>
           <SnapshotConstitution>21</SnapshotConstitution>
