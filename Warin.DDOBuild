@@ -16460,12 +16460,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>19</SnapshotStrength>
+          <SnapshotIntelligence>45</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -17479,10 +17479,10 @@
           <Stances>Deep Gnome</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
-          <TreeName>Divine Crusader</TreeName>
-          <TreeName>Draconic Incarnation</TreeName>
-          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fury of the Wild</TreeName>
           <TreeName>Fatesinger</TreeName>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeName>No selection</TreeName>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
           <TreeName>Deep Gnome</TreeName>
@@ -17669,6 +17669,10 @@
             <EnhancementName>DeadlyBlades</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Harper Agent</TreeName>
@@ -17716,6 +17720,182 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
         </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fury of the Wild</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildEpicStrike</EnhancementName>
+            <Selection>Quick Cutter</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildAcuteSenses</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildEnduring</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildGirdAgainstDemons</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildWildWeapons</EnhancementName>
+            <Selection>Doublestrike</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildFurySelector</EnhancementName>
+            <Selection>Spirit of the Beast</Selection>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildEmbraceThePain</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildForceSelector</EnhancementName>
+            <Selection>Primal Force</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildWadeThroughStrikeThrough</EnhancementName>
+            <Selection>Wilder Weapons - Doublestrike</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fatesinger</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerHarmonicResonance</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMusicOfTheSpiderQueen</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerPianissimo</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerGrandeur</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerALittleBitOfMusic</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMasterTheAcoustics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerTheSonataToServe</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerResonanceOfFate</EnhancementName>
+            <Selection>Arcane Resonance</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore1</EnhancementName>
+            <Selection>Thorn</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarRejuvenationCocoon</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarSeekingBalance</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarMantleOfNature</EnhancementName>
+            <Selection>Thorn</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore2</EnhancementName>
+            <Selection>Heart</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarSpiritBoon</EnhancementName>
+            <Selection>Mind</Selection>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarPrimalSpell</EnhancementName>
+            <Selection>Shard Storm</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarAtItsCreUpgradePrimalSpell</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarMagicOfTheOldWorld</EnhancementName>
+            <Selection>Enchantment</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarSharedMantle</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarNaturalEvasion</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
         <ActiveAttackChain/>
         <ActiveGear>Standard</ActiveGear>
         <EquippedGear>
@@ -17751,12 +17931,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>19</SnapshotStrength>
+          <SnapshotIntelligence>45</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -18629,12 +18809,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>19</SnapshotStrength>
+          <SnapshotIntelligence>45</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -21031,12 +21211,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>19</SnapshotStrength>
+          <SnapshotIntelligence>45</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -22183,12 +22363,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>18</SnapshotStrength>
-          <SnapshotIntelligence>41</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>16</SnapshotCharisma>
+          <SnapshotStrength>19</SnapshotStrength>
+          <SnapshotIntelligence>45</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>20</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
