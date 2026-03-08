@@ -5750,13 +5750,6 @@
           <Stances>Empty</Stances>
           <Stances>Human</Stances>
           <Stances>Chaotic</Stances>
-          <Stances>Law on your side</Stances>
-          <Stances>Know the Angles</Stances>
-          <Stances>Empower Healing Spell</Stances>
-          <Stances>Quicken Spell</Stances>
-          <Stances>Precision</Stances>
-          <Stances>Dual Shooter</Stances>
-          <Stances>Shiradi Destiny Mantle</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
           <TreeName>Shadowdancer</TreeName>
@@ -7023,7 +7016,7 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>32</SnapshotIntelligence>
+          <SnapshotIntelligence>35</SnapshotIntelligence>
           <SnapshotWisdom>15</SnapshotWisdom>
           <SnapshotDexterity>21</SnapshotDexterity>
           <SnapshotConstitution>21</SnapshotConstitution>
