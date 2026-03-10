@@ -2258,10 +2258,10 @@
           <Stances>Weapon Attachment</Stances>
           <Stances>Archer's Focus</Stances>
           <Stances>Empower Healing Spell</Stances>
-          <Stances>Battle Engineer: Imbue</Stances>
           <Stances>Shiradi Destiny Mantle</Stances>
           <Stances>Action Boost</Stances>
           <Stances>Reaper</Stances>
+          <Stances>Venomed Blades</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
           <TreeName>Shiradi Champion</TreeName>
@@ -2716,12 +2716,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>10</SnapshotStrength>
-          <SnapshotIntelligence>33</SnapshotIntelligence>
-          <SnapshotWisdom>9</SnapshotWisdom>
-          <SnapshotDexterity>19</SnapshotDexterity>
-          <SnapshotConstitution>20</SnapshotConstitution>
-          <SnapshotCharisma>9</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>16</SnapshotIntelligence>
+          <SnapshotWisdom>10</SnapshotWisdom>
+          <SnapshotDexterity>12</SnapshotDexterity>
+          <SnapshotConstitution>10</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -3503,12 +3503,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>16</SnapshotIntelligence>
+          <SnapshotWisdom>10</SnapshotWisdom>
+          <SnapshotDexterity>12</SnapshotDexterity>
+          <SnapshotConstitution>10</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -7831,7 +7831,1113 @@
         <Level40>Intelligence</Level40>
       </Build>
     </Life>
-    <ActiveLifeIndex>0</ActiveLifeIndex>
-    <ActiveBuildIndex>1</ActiveBuildIndex>
+    <Life version="1">
+      <Name>Non Inquisitive starter</Name>
+      <Race>Gnome</Race>
+      <Alignment>Chaotic Neutral</Alignment>
+      <SpecialFeats>
+        <TrainedFeat>
+          <FeatName>Harper Agent Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+      </SpecialFeats>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Artificer</Class1>
+        <Class2>Rogue</Class2>
+        <Class3>Fighter</Class3>
+        <AbilitySpend>
+          <Champion/>
+          <AvailableSpend>32</AvailableSpend>
+          <StrSpend>1</StrSpend>
+          <DexSpend>7</DexSpend>
+          <ConSpend>8</ConSpend>
+          <IntSpend>9</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>32</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Point Blank Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>13</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>14</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precise Shot</FeatName>
+            <Type>Artificer Bonus Feat</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Insightful Reflexes</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Rapid Shot</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>6</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Quicken Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Extend Spell</FeatName>
+            <Type>Artificer Bonus Feat</Type>
+            <LevelTrainedAt>10</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Ranged Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Construct Essence</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Improved Construct Essence</FeatName>
+            <Type>Artificer Bonus Feat</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Focus: Ranged Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>15</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Nimble Fingers</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Weapon Specialization: Ranged Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>15</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>16</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Combat Archery</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Holy Strike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Expanded Clip</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doubleshot</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Harbinger of Chaos</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Watchful Eye</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Aim</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Titan's Blood</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Chaotic</Stances>
+          <Stances>Gnome</Stances>
+          <Stances>Know the Angles</Stances>
+          <Stances>Battle Engineer: Imbue</Stances>
+          <Stances>Quicken Spell</Stances>
+          <Stances>Extend Spell</Stances>
+          <Stances>Weapon Attachment</Stances>
+          <Stances>Precision</Stances>
+          <Stances>Shiradi Destiny Mantle</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Shiradi Champion</TreeName>
+          <TreeName>Fatesinger</TreeName>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeName>Divine Crusader</TreeName>
+          <Tier5Tree>Shiradi Champion</Tier5Tree>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Gnome</TreeName>
+          <TreeName>Harper Agent</TreeName>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeName>Kensei</TreeName>
+          <TreeName>Assassin</TreeName>
+          <TreeName>Mechanic</TreeName>
+          <TreeName>Renegade Mastermaker</TreeName>
+          <Tier5Tree>Battle Engineer</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Harper Agent</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperEnchantment</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperKnowTheAngles</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore2</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperAbilityScoreI</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>BECore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingI</EnhancementName>
+            <Selection>Crossbow Training I</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEFieldScrapper</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingII</EnhancementName>
+            <Selection>Crossbow Training II</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEExtraActionBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECausticShot</EnhancementName>
+            <Selection>Caustic Shot</Selection>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEShatterDefenses</EnhancementName>
+            <Selection>Shatter Defenses (Crossbow)</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingIII</EnhancementName>
+            <Selection>Crossbow Training III</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEImbue</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityScoreI</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingIV</EnhancementName>
+            <Selection>Crossbow Training IV</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEBattleMastery</EnhancementName>
+            <Selection>Endless Fusilade</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityEngine</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityScoreII</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEReconstructedArmaments</EnhancementName>
+            <Selection>Reconstructed Crossbows</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponAttachment</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEthunderShockWeapon</EnhancementName>
+            <Selection>Thunder-Shock Weapon (Crossbow)</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEUnlockPotential</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BETacticalMobility</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Kensei</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiCore1</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationI</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiExoticWeaponMastery</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiExtraActionBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationII</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiAsceticTraining</EnhancementName>
+            <Selection>Agility</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationIII</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Mechanic</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Renegade Mastermaker</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>RMCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>RMEasilyFixed</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Assassin</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>AssCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>AssSneakAttackTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Gnome</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>GnomeCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GnomeCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GnomeCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GnomeGnomishWeaponTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GnomeGnomishWeaponTrainingII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCoverOfDarkness</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerTechnician</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDanceInTheDark</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerLithe</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fatesinger</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerEpicStrike</EnhancementName>
+            <Selection>The Pluck of a String</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerHarmonicResonance</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerPianissimo</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerALittleBitOfMusic</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMasterTheAcoustics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerReign</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerTheSonataToServe</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerGreatBalladsOfWar</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shiradi Champion</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionPrism</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFeySight</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionGoodLuck</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionStay</EnhancementName>
+            <Selection>Stay Loud</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFadeOrPresence</EnhancementName>
+            <Selection>Phase Double</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFriendOrFoe</EnhancementName>
+            <Selection>Enemy Of My Own</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionHealingSpring</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionDoubleRainbow</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionPierceDeception</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionBeguileOrHuntsEnd</EnhancementName>
+            <Selection>Hunt's End</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCrueltyOfTheHunt</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionTrack</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionQueensDiplomacy</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCrookedTouch</EnhancementName>
+            <Selection>Flickering Fingers</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionNerveVenom</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionLoreOfTheHunt</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFeywildAttunement</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionEpicMoment</EnhancementName>
+            <Selection>Inexorable Advance</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>16</SnapshotIntelligence>
+          <SnapshotWisdom>10</SnapshotWisdom>
+          <SnapshotDexterity>12</SnapshotDexterity>
+          <SnapshotConstitution>10</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Intelligence</Level4>
+        <Level8>Intelligence</Level8>
+        <Level12>Intelligence</Level12>
+        <Level16>Intelligence</Level16>
+        <Level20>Intelligence</Level20>
+        <Level24>Intelligence</Level24>
+        <Level28>Intelligence</Level28>
+        <Level32>Intelligence</Level32>
+        <Level36>Intelligence</Level36>
+        <Level40>Intelligence</Level40>
+      </Build>
+    </Life>
+    <Life version="1">
+      <Name/>
+      <Race>Wood Elf</Race>
+      <Alignment>Chaotic Neutral</Alignment>
+      <SpecialFeats/>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Ranger</Class1>
+        <Class2>Artificer</Class2>
+        <Class3>Dark Apostate</Class3>
+        <AbilitySpend>
+          <AvailableSpend>28</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>0</DexSpend>
+          <ConSpend>0</ConSpend>
+          <IntSpend>0</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Chaotic</Stances>
+          <Stances>Wood Elf</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Wood Elf</TreeName>
+          <TreeName>Arcane Archer</TreeName>
+          <TreeName>Deepwood Stalker</TreeName>
+          <TreeName>Tempest</TreeName>
+          <TreeName>Arcanotechnician</TreeName>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeName>Renegade Mastermaker</TreeName>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>16</SnapshotIntelligence>
+          <SnapshotWisdom>10</SnapshotWisdom>
+          <SnapshotDexterity>12</SnapshotDexterity>
+          <SnapshotConstitution>10</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Intelligence</Level4>
+        <Level8>Intelligence</Level8>
+        <Level12>Intelligence</Level12>
+        <Level16>Intelligence</Level16>
+        <Level20>Intelligence</Level20>
+        <Level24>Intelligence</Level24>
+        <Level28>Intelligence</Level28>
+        <Level32>Intelligence</Level32>
+        <Level36>Intelligence</Level36>
+        <Level40>Intelligence</Level40>
+      </Build>
+    </Life>
+    <ActiveLifeIndex>3</ActiveLifeIndex>
+    <ActiveBuildIndex>0</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
