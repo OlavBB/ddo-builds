@@ -8649,12 +8649,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>16</SnapshotIntelligence>
-          <SnapshotWisdom>10</SnapshotWisdom>
-          <SnapshotDexterity>12</SnapshotDexterity>
-          <SnapshotConstitution>10</SnapshotConstitution>
-          <SnapshotCharisma>10</SnapshotCharisma>
+          <SnapshotStrength>12</SnapshotStrength>
+          <SnapshotIntelligence>33</SnapshotIntelligence>
+          <SnapshotWisdom>15</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>21</SnapshotConstitution>
+          <SnapshotCharisma>13</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
