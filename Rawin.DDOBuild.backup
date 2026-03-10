@@ -2716,12 +2716,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>10</SnapshotStrength>
+          <SnapshotIntelligence>33</SnapshotIntelligence>
+          <SnapshotWisdom>9</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>9</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -5750,6 +5750,13 @@
           <Stances>Empty</Stances>
           <Stances>Human</Stances>
           <Stances>Chaotic</Stances>
+          <Stances>Law on your side</Stances>
+          <Stances>Know the Angles</Stances>
+          <Stances>Empower Healing Spell</Stances>
+          <Stances>Quicken Spell</Stances>
+          <Stances>Precision</Stances>
+          <Stances>Dual Shooter</Stances>
+          <Stances>Shiradi Destiny Mantle</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
           <TreeName>Shadowdancer</TreeName>
@@ -6217,12 +6224,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>32</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>10</SnapshotStrength>
+          <SnapshotIntelligence>33</SnapshotIntelligence>
+          <SnapshotWisdom>9</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>9</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -7016,7 +7023,7 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
+          <SnapshotIntelligence>32</SnapshotIntelligence>
           <SnapshotWisdom>15</SnapshotWisdom>
           <SnapshotDexterity>21</SnapshotDexterity>
           <SnapshotConstitution>21</SnapshotConstitution>
@@ -7824,7 +7831,7 @@
         <Level40>Intelligence</Level40>
       </Build>
     </Life>
-    <ActiveLifeIndex>1</ActiveLifeIndex>
-    <ActiveBuildIndex>2</ActiveBuildIndex>
+    <ActiveLifeIndex>0</ActiveLifeIndex>
+    <ActiveBuildIndex>1</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
