@@ -25496,7 +25496,1019 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>40</SnapshotStrength>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Dragon Lord</Class1>
+        <Class2>Bard</Class2>
+        <Class3>Rogue</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>10</StrSpend>
+          <DexSpend>4</DexSpend>
+          <ConSpend>10</ConSpend>
+          <IntSpend>0</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>4</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Power Attack</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Thraxata's Instinct</FeatName>
+            <Type>Minor Draconic Aura</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>1</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Cleave</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>1</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>1</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>1</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Great Cleave</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>3</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>1</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Bard</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Bard</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>6</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Bard</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>6</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>8</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>2</SkillPointsAvailable>
+          <SkillPointsSpent>2</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Slashing Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>9</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>2</SkillPointsAvailable>
+          <SkillPointsSpent>2</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>2</SkillPointsAvailable>
+          <SkillPointsSpent>2</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Velah's Fury</FeatName>
+            <Type>Major Draconic Aura</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Offhand Versatility</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>2</SkillPointsAvailable>
+          <SkillPointsSpent>2</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>2</SkillPointsAvailable>
+          <SkillPointsSpent>2</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Tactical Combatant</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>13</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Tactical Master</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>15</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Focus: Slashing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Weapon Specialization: Slashing Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>3</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>The Truthful One's Might</FeatName>
+            <Type>Superior Draconic Aura</Type>
+            <LevelTrainedAt>19</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doublestrike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Perfect Single Weapon Fighting</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Harbinger of Chaos</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Epic Damage Reduction</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Shield Mastery Specialty</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Weapon Specialization: Slashing Weapons</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Titan's Blood</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Half-Orc</Stances>
+          <Stances>Chaotic</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeName>Fatesinger</TreeName>
+          <TreeName>Legendary Dreadnought</TreeName>
+          <TreeName>Divine Crusader</TreeName>
+          <Tier5Tree>Legendary Dreadnought</Tier5Tree>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Half-Orc</TreeName>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeName>Swashbuckler</TreeName>
+          <TreeName>Ravager (Fighter)</TreeName>
+          <TreeName>Warchanter</TreeName>
+          <TreeName>Harper Agent</TreeName>
+          <TreeName>Falconry</TreeName>
+          <Tier5Tree>Dragon Lord</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore1</EnhancementName>
+            <Selection>Soul of the Blue Dragon</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMartialSuperioirity</EnhancementName>
+            <Selection>Dragon Lord: Martial Superiority: Strike Twice</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonslayer</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordActionBoost</EnhancementName>
+            <Selection>Action Boost: Haste</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMightOrOutburst</EnhancementName>
+            <Selection>Might in Order</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordAbilityI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordUntouchableSoul</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordSoulScales</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordTacticalCommander</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordImprovedDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordFlightOfKings</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordConqueror</EnhancementName>
+            <Ranks>2</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Swashbuckler</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>SBCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBBlowByBlow</EnhancementName>
+            <Selection>Blow By Blow</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBOnYourToes</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBDeflectArrows</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBEnPointe</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBSwashbucklingStyle</EnhancementName>
+            <Selection>Skirmisher</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Ravager (Fighter)</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DLRavCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DLRavHardyRage</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DLRavDoYouLikePain</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DLRavCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DLRavILikePain</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Assassin</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Warchanter</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>WCCore1</EnhancementName>
+            <Selection>Skaldic Rage</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WCThePoeticEdda</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WCInspiredBravery</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WCCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Harper Agent</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperEnchantment</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Half-Orc</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcOrcishWeaponTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcOrcishWeaponTrainingII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcOrcishRage</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcExtraActionBoost</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcOrcishWeaponTrainingIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcOrcishWeaponTrainingIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcBrutality</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Falconry</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Legendary Dreadnought</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtDreadMantle</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtEpicTactics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCombatBrute</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtGhostTouch</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtExtraActionBoosts</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtHonorOrBackstab</EnhancementName>
+            <Selection>Honor</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtArmorOfDusk</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtStrikeTwice</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtKickWhileTheyreDown</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCarryOn</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtStrikeWithFear</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtOverpower</EnhancementName>
+            <Selection>Lacerator</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtLegendaryRally</EnhancementName>
+            <Selection>Legendary Rally (Melee)</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtDuskSurge</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtActionHero</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerStealthy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerTechnician</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDanceInTheDark</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerLithe</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerGrimPrecision</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fatesinger</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerEpicStrike</EnhancementName>
+            <Selection>Strike a Chord</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerHarmonicResonance</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerALittleBitOfMusic</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerDiscord</EnhancementName>
+            <Selection>Blade of Discord</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerReign</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerTheSonataToServe</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMasterTheAcoustics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerGreatBalladsOfWar</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>41</SnapshotStrength>
           <SnapshotIntelligence>17</SnapshotIntelligence>
           <SnapshotWisdom>19</SnapshotWisdom>
           <SnapshotDexterity>23</SnapshotDexterity>
@@ -25520,6 +26532,6 @@
     <GuildLevel>198</GuildLevel>
     <ApplyGuildBuffs>1</ApplyGuildBuffs>
     <ActiveLifeIndex>10</ActiveLifeIndex>
-    <ActiveBuildIndex>0</ActiveBuildIndex>
+    <ActiveBuildIndex>1</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
