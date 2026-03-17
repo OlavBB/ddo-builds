@@ -10246,12 +10246,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
-          <SnapshotWisdom>14</SnapshotWisdom>
-          <SnapshotDexterity>19</SnapshotDexterity>
-          <SnapshotConstitution>20</SnapshotConstitution>
-          <SnapshotCharisma>10</SnapshotCharisma>
+          <SnapshotStrength>7</SnapshotStrength>
+          <SnapshotIntelligence>30</SnapshotIntelligence>
+          <SnapshotWisdom>12</SnapshotWisdom>
+          <SnapshotDexterity>17</SnapshotDexterity>
+          <SnapshotConstitution>18</SnapshotConstitution>
+          <SnapshotCharisma>8</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -10289,7 +10289,7 @@
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>28</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>12</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Point Blank Shot</FeatName>
             <Type>Standard</Type>
@@ -10300,66 +10300,255 @@
             <Type>Metamagic Feat</Type>
             <LevelTrainedAt>0</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Empower Spell</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>2</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Rapid Shot</FeatName>
             <Type>Artificer Bonus Feat</Type>
             <LevelTrainedAt>4</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Nimble Fingers</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>5</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Fighter</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Weapon Focus: Ranged Weapons</FeatName>
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>7</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Fighter</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Insightful Reflexes</FeatName>
             <Type>Standard</Type>
@@ -10370,91 +10559,346 @@
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>8</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Fighter</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Fighter</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Weapon Specialization: Ranged Weapons</FeatName>
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>10</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Construct Essence</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>11</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Maximize Spell</FeatName>
             <Type>Artificer Bonus Feat</Type>
             <LevelTrainedAt>12</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Critical: Ranged Weapons</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>14</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Construct Essence</FeatName>
             <Type>Artificer Bonus Feat</Type>
             <LevelTrainedAt>16</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Extend Spell</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>17</LevelTrainedAt>
           </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Epic</Class>
@@ -10643,12 +11087,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
-          <SnapshotWisdom>14</SnapshotWisdom>
-          <SnapshotDexterity>19</SnapshotDexterity>
-          <SnapshotConstitution>20</SnapshotConstitution>
-          <SnapshotCharisma>10</SnapshotCharisma>
+          <SnapshotStrength>7</SnapshotStrength>
+          <SnapshotIntelligence>30</SnapshotIntelligence>
+          <SnapshotWisdom>12</SnapshotWisdom>
+          <SnapshotDexterity>17</SnapshotDexterity>
+          <SnapshotConstitution>18</SnapshotConstitution>
+          <SnapshotCharisma>8</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -10664,7 +11108,7 @@
         <Level40>Intelligence</Level40>
       </Build>
     </Life>
-    <ActiveLifeIndex>3</ActiveLifeIndex>
+    <ActiveLifeIndex>4</ActiveLifeIndex>
     <ActiveBuildIndex>0</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
