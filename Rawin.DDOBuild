@@ -10246,12 +10246,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>7</SnapshotStrength>
-          <SnapshotIntelligence>30</SnapshotIntelligence>
-          <SnapshotWisdom>12</SnapshotWisdom>
-          <SnapshotDexterity>17</SnapshotDexterity>
-          <SnapshotConstitution>18</SnapshotConstitution>
-          <SnapshotCharisma>8</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>35</SnapshotIntelligence>
+          <SnapshotWisdom>14</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -10289,7 +10289,7 @@
         <LevelTraining>
           <Class>Wizard</Class>
           <SkillPointsAvailable>28</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>16</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Point Blank Shot</FeatName>
             <Type>Standard</Type>
@@ -10335,6 +10335,18 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -10415,7 +10427,7 @@
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10437,11 +10449,20 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>8</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Rapid Shot</FeatName>
             <Type>Artificer Bonus Feat</Type>
@@ -10462,11 +10483,20 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Nimble Fingers</FeatName>
             <Type>Standard</Type>
@@ -10487,11 +10517,14 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10506,6 +10539,9 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -10745,7 +10781,7 @@
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>6</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10764,11 +10800,26 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>8</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Critical: Ranged Weapons</FeatName>
             <Type>Standard</Type>
@@ -10789,11 +10840,20 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10809,11 +10869,14 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Construct Essence</FeatName>
             <Type>Artificer Bonus Feat</Type>
@@ -10834,11 +10897,14 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Extend Spell</FeatName>
             <Type>Standard</Type>
@@ -10859,11 +10925,14 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10879,11 +10948,14 @@
           <TrainedSkill>
             <Skill>Concentration</Skill>
           </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>5</SkillPointsSpent>
+          <SkillPointsSpent>6</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -10898,6 +10970,9 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -11087,12 +11162,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>7</SnapshotStrength>
-          <SnapshotIntelligence>30</SnapshotIntelligence>
-          <SnapshotWisdom>12</SnapshotWisdom>
-          <SnapshotDexterity>17</SnapshotDexterity>
-          <SnapshotConstitution>18</SnapshotConstitution>
-          <SnapshotCharisma>8</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>35</SnapshotIntelligence>
+          <SnapshotWisdom>14</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -11108,7 +11183,7 @@
         <Level40>Intelligence</Level40>
       </Build>
     </Life>
-    <ActiveLifeIndex>4</ActiveLifeIndex>
+    <ActiveLifeIndex>3</ActiveLifeIndex>
     <ActiveBuildIndex>0</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
