@@ -1249,7 +1249,7 @@
         <Class3>Rogue</Class3>
         <AbilitySpend>
           <Champion/>
-          <AvailableSpend>32</AvailableSpend>
+          <AvailableSpend>34</AvailableSpend>
           <StrSpend>0</StrSpend>
           <DexSpend>8</DexSpend>
           <ConSpend>6</ConSpend>
@@ -2727,11 +2727,11 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>16</SnapshotIntelligence>
-          <SnapshotWisdom>10</SnapshotWisdom>
-          <SnapshotDexterity>12</SnapshotDexterity>
-          <SnapshotConstitution>10</SnapshotConstitution>
-          <SnapshotCharisma>10</SnapshotCharisma>
+          <SnapshotIntelligence>37</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -4863,12 +4863,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>33</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>37</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -7864,7 +7864,7 @@
         <Class3>Fighter</Class3>
         <AbilitySpend>
           <Champion/>
-          <AvailableSpend>32</AvailableSpend>
+          <AvailableSpend>34</AvailableSpend>
           <StrSpend>1</StrSpend>
           <DexSpend>7</DexSpend>
           <ConSpend>8</ConSpend>
@@ -8660,11 +8660,11 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>35</SnapshotIntelligence>
-          <SnapshotWisdom>14</SnapshotWisdom>
+          <SnapshotIntelligence>37</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
           <SnapshotDexterity>19</SnapshotDexterity>
           <SnapshotConstitution>20</SnapshotConstitution>
-          <SnapshotCharisma>10</SnapshotCharisma>
+          <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -10045,6 +10045,11 @@
             <Selection>Squirrel of Luck</Selection>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarSpiritBoon</EnhancementName>
+            <Selection>Mind</Selection>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
         </DestinySpendInTree>
         <DestinySpendInTree>
           <TreeName>Shadowdancer</TreeName>
@@ -10111,13 +10116,8 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>U51ShiradiChampionWildMagics</EnhancementName>
-            <Ranks>2</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>U51ShiradiChampionShiradiStrike</EnhancementName>
-            <Selection>Pin</Selection>
-            <Ranks>1</Ranks>
+            <EnhancementName>U51ShiradiChampionFeySight</EnhancementName>
+            <Ranks>3</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
             <EnhancementName>U51ShiradiChampionStay</EnhancementName>
@@ -10155,17 +10155,12 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>U51ShiradiChampionStrikeUpgradeI</EnhancementName>
-            <Selection>Queen's Diplomacy</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
             <EnhancementName>U51ShiradiChampionCore3</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>U51ShiradiChampionStrikeUpgradeII</EnhancementName>
-            <Selection>Overwhelming Force</Selection>
+            <EnhancementName>U51ShiradiChampionBeguileOrHuntsEnd</EnhancementName>
+            <Selection>Hunt's End</Selection>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
@@ -10246,12 +10241,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>33</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>37</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -10271,7 +10266,18 @@
       <Name/>
       <Race>Deep Gnome</Race>
       <Alignment>Chaotic Neutral</Alignment>
-      <SpecialFeats/>
+      <SpecialFeats>
+        <TrainedFeat>
+          <FeatName>Harper Agent Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Inquisitive Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+      </SpecialFeats>
       <Build version="1">
         <Level>34</Level>
         <Class1>Artificer</Class1>
@@ -11108,25 +11114,439 @@
           <Stances>Deep Gnome</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
+          <TreeName>Shiradi Champion</TreeName>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeName>Shadowdancer</TreeName>
           <TreeName>Divine Crusader</TreeName>
-          <TreeName>Draconic Incarnation</TreeName>
-          <TreeName>Exalted Angel</TreeName>
-          <TreeName>Fatesinger</TreeName>
+          <Tier5Tree>Shiradi Champion</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
           <TreeName>Deep Gnome</TreeName>
-          <TreeName>Arcanotechnician</TreeName>
+          <TreeName>Harper Agent</TreeName>
           <TreeName>Battle Engineer</TreeName>
-          <TreeName>Renegade Mastermaker</TreeName>
-          <TreeName>Archmage</TreeName>
-          <TreeName>Eldritch Knight (Wiz)</TreeName>
+          <TreeName>Kensei</TreeName>
+          <TreeName>Inquisitive</TreeName>
+          <TreeName>Stalwart Defender</TreeName>
           <TreeName>Pale Master</TreeName>
+          <Tier5Tree>Battle Engineer</Tier5Tree>
         </Enhancement_SelectedTrees>
         <Reaper_SelectedTrees>
           <TreeName>Dire Thaumaturge</TreeName>
           <TreeName>Dread Adversary</TreeName>
           <TreeName>Grim Barricade</TreeName>
         </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Harper Agent</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperEnchantment</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperKnowTheAngles</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore2</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>StrategicCombatII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperKnowYourFoe</EnhancementName>
+            <Selection>Favored Enemy: Evil Outsider</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperAbilityScoreI</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>BECore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingI</EnhancementName>
+            <Selection>Crossbow Training I</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEFieldEngineer</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingII</EnhancementName>
+            <Selection>Crossbow Training II</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEExtraActionBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECausticShot</EnhancementName>
+            <Selection>Caustic Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingIII</EnhancementName>
+            <Selection>Crossbow Training III</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEImbue</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityScoreI</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEShatterDefenses</EnhancementName>
+            <Selection>Shatter Defenses (Crossbow)</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponTrainingIV</EnhancementName>
+            <Selection>Crossbow Training IV</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityEngine</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEAbilityScoreII</EnhancementName>
+            <Selection>+1 Intelligence</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEBattleMastery</EnhancementName>
+            <Selection>Endless Fusilade</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BECore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEReconstructedArmaments</EnhancementName>
+            <Selection>Reconstructed Crossbows</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEWeaponAttachment</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEthunderShockWeapon</EnhancementName>
+            <Selection>Thunder-Shock Weapon (Crossbow)</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BEUnlockPotential</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BETacticalMobility</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Kensei</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiCore1</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationI</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiExoticWeaponMastery</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiExtraActionBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationII</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiAsceticTraining</EnhancementName>
+            <Selection>Agility</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationIII</EnhancementName>
+            <Selection>Kensei Focus: Crossbows</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiShatteringStrike</EnhancementName>
+            <Selection>Shattering Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Deep Gnome</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DeepGnomeCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Inquisitive</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveEyeForAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveSkills</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCoverOfDarkness</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerTechnician</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDanceInTheDark</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerLithe</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerShadowcaster</EnhancementName>
+            <Selection>Shadowstriker</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerGrimPrecision</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerBringDarkness</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerPierceTheGloom</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fatesinger</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore1</EnhancementName>
+            <Selection>Heart</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarRejuvenationCocoon</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarNaturesFriend</EnhancementName>
+            <Selection>Fox of Flame</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore2</EnhancementName>
+            <Selection>Thorn</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarSpiritBoon</EnhancementName>
+            <Selection>Mind</Selection>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shiradi Champion</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionPrism</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionGoodLuck</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionStay</EnhancementName>
+            <Selection>Stay Good</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFadeOrPresence</EnhancementName>
+            <Selection>Phase Double</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFriendOrFoe</EnhancementName>
+            <Selection>Fey Form</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionHealingSpring</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionEmpatheticLink</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionDoubleRainbow</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionBeguileOrHuntsEnd</EnhancementName>
+            <Selection>Hunt's End</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionPierceDeception</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCrueltyOfTheHunt</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionTrack</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionQueensDiplomacy</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionCrookedTouch</EnhancementName>
+            <Selection>Flickering Fingers</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionNerveVenom</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionLoreOfTheHunt</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionFeywildAttunement</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShiradiChampionEpicMoment</EnhancementName>
+            <Selection>Inexorable Advance</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
         <ActiveAttackChain/>
         <ActiveGear>Standard</ActiveGear>
         <EquippedGear>
@@ -11162,12 +11582,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>12</SnapshotStrength>
-          <SnapshotIntelligence>33</SnapshotIntelligence>
-          <SnapshotWisdom>15</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>21</SnapshotConstitution>
-          <SnapshotCharisma>13</SnapshotCharisma>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>37</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>19</SnapshotDexterity>
+          <SnapshotConstitution>20</SnapshotConstitution>
+          <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -11183,7 +11603,7 @@
         <Level40>Intelligence</Level40>
       </Build>
     </Life>
-    <ActiveLifeIndex>1</ActiveLifeIndex>
-    <ActiveBuildIndex>1</ActiveBuildIndex>
+    <ActiveLifeIndex>3</ActiveLifeIndex>
+    <ActiveBuildIndex>0</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
