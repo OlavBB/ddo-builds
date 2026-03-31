@@ -23448,7 +23448,7 @@
           <SkillPointsAvailable>3</SkillPointsAvailable>
           <SkillPointsSpent>3</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Precision</FeatName>
+            <FeatName>Cleave</FeatName>
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>1</LevelTrainedAt>
           </TrainedFeat>
@@ -23486,7 +23486,7 @@
           <SkillPointsAvailable>3</SkillPointsAvailable>
           <SkillPointsSpent>3</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Cleave</FeatName>
+            <FeatName>Great Cleave</FeatName>
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>3</LevelTrainedAt>
           </TrainedFeat>
@@ -23519,7 +23519,7 @@
           <SkillPointsAvailable>7</SkillPointsAvailable>
           <SkillPointsSpent>5</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Great Cleave</FeatName>
+            <FeatName>Precision</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>5</LevelTrainedAt>
           </TrainedFeat>
