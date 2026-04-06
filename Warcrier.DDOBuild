@@ -2615,7 +2615,7 @@
         <LevelTraining>
           <Class>Favored Soul</Class>
           <SkillPointsAvailable>3</SkillPointsAvailable>
-          <SkillPointsSpent>7</SkillPointsSpent>
+          <SkillPointsSpent>3</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Greater Single Weapon Fighting</FeatName>
             <Type>Standard</Type>
@@ -2627,25 +2627,13 @@
             <LevelTrainedAt>14</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
+            <Skill>Heal</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Use Magic Device</Skill>
+            <Skill>Heal</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Perform</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Perform</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Diplomacy</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Diplomacy</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Tumble</Skill>
+            <Skill>Heal</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -2668,9 +2656,9 @@
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
-          <Class>Fighter</Class>
-          <SkillPointsAvailable>3</SkillPointsAvailable>
-          <SkillPointsSpent>3</SkillPointsSpent>
+          <Class>Bard</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Jump</Skill>
           </TrainedSkill>
@@ -2679,6 +2667,18 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Perform</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -2768,6 +2768,11 @@
           <Class>Epic</Class>
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Inspire Excellence</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
         </LevelTraining>
         <LevelTraining>
           <Class>Epic</Class>
@@ -2896,7 +2901,7 @@
           <TreeName>Divine Crusader</TreeName>
           <TreeName>Shadowdancer</TreeName>
           <TreeName>Fatesinger</TreeName>
-          <TreeName>No selection</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
           <Tier5Tree>Divine Crusader</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
@@ -3342,12 +3347,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>13</SnapshotStrength>
-          <SnapshotIntelligence>13</SnapshotIntelligence>
-          <SnapshotWisdom>12</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>22</SnapshotConstitution>
-          <SnapshotCharisma>33</SnapshotCharisma>
+          <SnapshotStrength>15</SnapshotStrength>
+          <SnapshotIntelligence>15</SnapshotIntelligence>
+          <SnapshotWisdom>14</SnapshotWisdom>
+          <SnapshotDexterity>22</SnapshotDexterity>
+          <SnapshotConstitution>24</SnapshotConstitution>
+          <SnapshotCharisma>35</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>

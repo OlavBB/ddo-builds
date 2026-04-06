@@ -9970,11 +9970,6 @@
             <EnhancementName>StrategicCombatII</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>HarperKnowYourFoe</EnhancementName>
-            <Selection>Favored Enemy: Evil Outsider</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Deepwood Stalker</TreeName>
@@ -9992,11 +9987,11 @@
             <Ranks>2</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>DSCore2</EnhancementName>
-            <Ranks>1</Ranks>
+            <EnhancementName>DSStealthy</EnhancementName>
+            <Ranks>3</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>DSImprovedWeaponFinesse</EnhancementName>
+            <EnhancementName>DSCore2</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
@@ -10004,46 +9999,32 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
+            <EnhancementName>DSSurvivalistII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DSThrillOfTheHunt</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
             <EnhancementName>DSCore3</EnhancementName>
             <Selection>Sniper Shot</Selection>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
-        </EnhancementSpendInTree>
-        <EnhancementSpendInTree>
-          <TreeName>Battle Engineer</TreeName>
-          <TreeVersion>1</TreeVersion>
           <TrainedEnhancement>
-            <EnhancementName>BECore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEFieldEngineer</EnhancementName>
+            <EnhancementName>DSFavoredHunter</EnhancementName>
             <Ranks>3</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>BEFieldScrapper</EnhancementName>
+            <EnhancementName>DSSurvivalistIII</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>BECore2</EnhancementName>
-            <Ranks>1</Ranks>
+            <EnhancementName>DSKiller</EnhancementName>
+            <Ranks>3</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>BECausticShot</EnhancementName>
-            <Selection>Caustic Shot</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEExtraActionBoost</EnhancementName>
-            <Ranks>2</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEShatterDefenses</EnhancementName>
-            <Selection>Shatter Defenses (Crossbow)</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>BEImbue</EnhancementName>
+            <EnhancementName>DSCore4</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
         </EnhancementSpendInTree>
