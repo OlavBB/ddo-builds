@@ -20633,10 +20633,11 @@
           <Stances>Aasimar Scourge</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
-          <TreeName>Divine Crusader</TreeName>
-          <TreeName>Draconic Incarnation</TreeName>
-          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fury of the Wild</TreeName>
           <TreeName>Fatesinger</TreeName>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeName>No selection</TreeName>
+          <Tier5Tree>Fatesinger</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
           <TreeName>Aasimar: Scourge of the Undead</TreeName>
@@ -20891,6 +20892,178 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
         </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fury of the Wild</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildEnduring</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildMantleOfFury</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildPrimalScream</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildGirdAgainstDemons</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fatesinger</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerEpicStrike</EnhancementName>
+            <Selection>The Sword Sings</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerHarmonicResonance</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerPianissimo</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerALittleBitOfMusic</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerDiscord</EnhancementName>
+            <Selection>Blade of Discord</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMasterTheAcoustics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerReign</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerTheSonataToServe</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerGreatBalladsOfWar</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerResonanceOfFate</EnhancementName>
+            <Selection>Divine Resonance</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerMetamagicsAttunement</EnhancementName>
+            <Selection>Extend</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerBalladOfTheAges</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerBladeSong</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FatesingerTurnTheTide</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Shadowdancer</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCoverOfDarkness</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerStealthy</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerShadowform</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDanceInTheDark</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerLithe</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDepthsOfDarkness</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerShadowcaster</EnhancementName>
+            <Selection>Shadowstriker</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerGrimPrecision</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerBringDarkness</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51ShadowdancerDarkMercy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
         <ActiveAttackChain/>
         <ActiveGear>Standard</ActiveGear>
         <EquippedGear>
@@ -20926,12 +21099,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>44</SnapshotStrength>
+          <SnapshotIntelligence>25</SnapshotIntelligence>
+          <SnapshotWisdom>24</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>22</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -23328,12 +23501,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>44</SnapshotStrength>
+          <SnapshotIntelligence>25</SnapshotIntelligence>
+          <SnapshotWisdom>24</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>22</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -24480,12 +24653,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>44</SnapshotStrength>
+          <SnapshotIntelligence>25</SnapshotIntelligence>
+          <SnapshotWisdom>24</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>22</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -25496,12 +25669,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>44</SnapshotStrength>
+          <SnapshotIntelligence>25</SnapshotIntelligence>
+          <SnapshotWisdom>24</SnapshotWisdom>
+          <SnapshotDexterity>21</SnapshotDexterity>
+          <SnapshotConstitution>31</SnapshotConstitution>
+          <SnapshotCharisma>22</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
