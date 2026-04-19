@@ -2734,7 +2734,11 @@
           <SnapshotCharisma>12</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
+<<<<<<< HEAD
+        <Notes/>
+=======
         <Notes>FortitudeSave</Notes>
+>>>>>>> 287f219 (Update builds - 2026-04-16 16:14:01)
         <Level4>Intelligence</Level4>
         <Level8>Intelligence</Level8>
         <Level12>Intelligence</Level12>
