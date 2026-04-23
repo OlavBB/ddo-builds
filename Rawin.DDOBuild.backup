@@ -1251,7 +1251,7 @@
         <Level>34</Level>
         <Class1>Ranger</Class1>
         <Class2>Artificer</Class2>
-        <Class3>Arcane Trickster</Class3>
+        <Class3>Rogue</Class3>
         <AbilitySpend>
           <Champion/>
           <AvailableSpend>36</AvailableSpend>
@@ -1332,18 +1332,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1366,6 +1354,18 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
@@ -1388,19 +1388,19 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
             <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Concentration</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Concentration</Skill>
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
-          <Class>Arcane Trickster</Class>
+          <Class>Rogue</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Precision</FeatName>
             <Type>Standard</Type>
@@ -1434,9 +1434,6 @@
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1444,7 +1441,7 @@
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
-          <Class>Arcane Trickster</Class>
+          <Class>Rogue</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
           <SkillPointsSpent>7</SkillPointsSpent>
           <TrainedSkill>
@@ -1472,7 +1469,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>11</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Favored Enemy: Undead</FeatName>
             <Type>Favored Enemy</Type>
@@ -1503,9 +1500,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1515,7 +1509,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>11</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Insightful Reflexes</FeatName>
             <Type>Standard</Type>
@@ -1546,9 +1540,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1558,7 +1549,7 @@
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>9</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
+          <SkillPointsSpent>7</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -1575,9 +1566,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1587,7 +1575,7 @@
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>10</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Quicken Spell</FeatName>
             <Type>Artificer Bonus Feat</Type>
@@ -1609,9 +1597,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1627,7 +1612,7 @@
         <LevelTraining>
           <Class>Artificer</Class>
           <SkillPointsAvailable>10</SkillPointsAvailable>
-          <SkillPointsSpent>8</SkillPointsSpent>
+          <SkillPointsSpent>7</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Weapon Focus: Ranged Weapons</FeatName>
             <Type>Standard</Type>
@@ -1649,9 +1634,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1661,7 +1643,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>11</SkillPointsAvailable>
-          <SkillPointsSpent>11</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -1679,9 +1661,6 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Tumble</Skill>
@@ -1737,7 +1716,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Improved Critical: Ranged Weapons</FeatName>
             <Type>Standard</Type>
@@ -1764,15 +1743,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1788,7 +1758,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -1805,9 +1775,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Tumble</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1829,7 +1796,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -1849,12 +1816,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Heal</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1870,7 +1831,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Power Critical</FeatName>
             <Type>Standard</Type>
@@ -1895,12 +1856,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Heal</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1916,7 +1871,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>12</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>10</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -1934,12 +1889,6 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Heal</Skill>
@@ -1957,7 +1906,7 @@
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
-          <SkillPointsSpent>13</SkillPointsSpent>
+          <SkillPointsSpent>9</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -1974,12 +1923,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -1991,17 +1934,11 @@
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
           <Class>Ranger</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
-          <SkillPointsSpent>12</SkillPointsSpent>
+          <SkillPointsSpent>11</SkillPointsSpent>
           <TrainedFeat>
             <FeatName>Empower Healing Spell</FeatName>
             <Type>Standard</Type>
@@ -2020,9 +1957,6 @@
             <Skill>Search</Skill>
           </TrainedSkill>
           <TrainedSkill>
-            <Skill>Repair</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
             <Skill>Balance</Skill>
           </TrainedSkill>
           <TrainedSkill>
@@ -2045,9 +1979,9 @@
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
-          <Class>Arcane Trickster</Class>
+          <Class>Rogue</Class>
           <SkillPointsAvailable>15</SkillPointsAvailable>
-          <SkillPointsSpent>15</SkillPointsSpent>
+          <SkillPointsSpent>14</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Disable Device</Skill>
           </TrainedSkill>
@@ -2059,9 +1993,6 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Balance</Skill>
@@ -2095,9 +2026,9 @@
           </TrainedSkill>
         </LevelTraining>
         <LevelTraining>
-          <Class>Arcane Trickster</Class>
+          <Class>Rogue</Class>
           <SkillPointsAvailable>15</SkillPointsAvailable>
-          <SkillPointsSpent>15</SkillPointsSpent>
+          <SkillPointsSpent>14</SkillPointsSpent>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -2112,9 +2043,6 @@
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Search</Skill>
-          </TrainedSkill>
-          <TrainedSkill>
-            <Skill>Repair</Skill>
           </TrainedSkill>
           <TrainedSkill>
             <Skill>Balance</Skill>
@@ -2284,7 +2212,7 @@
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
           <TreeName>Warforged</TreeName>
-          <TreeName>Arcane Trickster</TreeName>
+          <TreeName>Arcane Archer</TreeName>
           <TreeName>Deepwood Stalker</TreeName>
           <TreeName>Tempest</TreeName>
           <TreeName>Arcanotechnician</TreeName>
@@ -2299,10 +2227,6 @@
         <EnhancementSpendInTree>
           <TreeName>Arcane Trickster</TreeName>
           <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>ArcaneTricksterCore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <ActiveAttackChain/>
         <ActiveGear>Standard</ActiveGear>
