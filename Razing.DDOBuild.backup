@@ -957,7 +957,7 @@
         <Class2>Artificer</Class2>
         <Class3>Dragon Lord</Class3>
         <AbilitySpend>
-          <AvailableSpend>36</AvailableSpend>
+          <AvailableSpend>32</AvailableSpend>
           <StrSpend>0</StrSpend>
           <DexSpend>7</DexSpend>
           <ConSpend>6</ConSpend>
@@ -1583,9 +1583,9 @@
           <Stances>Good</Stances>
           <Stances>Lawful</Stances>
           <Stances>Empty</Stances>
-          <Stances>Eladrin</Stances>
           <Stances>Aura of Good</Stances>
           <Stances>Aura of Courage</Stances>
+          <Stances>Drow</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
           <TreeName>No selection</TreeName>
@@ -1595,7 +1595,7 @@
           <Tier5Tree>Shiradi Champion</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
-          <TreeName>Eladrin</TreeName>
+          <TreeName>Drow</TreeName>
           <TreeName>Inquisitive</TreeName>
           <TreeName>Battle Engineer</TreeName>
           <TreeName>Feydark Illusionist</TreeName>
