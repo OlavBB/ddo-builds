@@ -1907,6 +1907,11 @@
           <Class>Ranger</Class>
           <SkillPointsAvailable>13</SkillPointsAvailable>
           <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Evil Outsider</FeatName>
+            <Type>Favored Enemy</Type>
+            <LevelTrainedAt>16</LevelTrainedAt>
+          </TrainedFeat>
           <TrainedSkill>
             <Skill>Use Magic Device</Skill>
           </TrainedSkill>
@@ -2077,7 +2082,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Alertness</FeatName>
+            <FeatName>Eerie Aim</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>20</LevelTrainedAt>
           </TrainedFeat>
@@ -2102,7 +2107,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Patience</FeatName>
+            <FeatName>Combat Archery</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>23</LevelTrainedAt>
           </TrainedFeat>
@@ -2127,7 +2132,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Combat Archery</FeatName>
+            <FeatName>Overwhelming Critical</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>26</LevelTrainedAt>
           </TrainedFeat>
@@ -2182,7 +2187,1048 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Titan's Blood</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Chaotic</Stances>
+          <Stances>Warforged</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Warforged</TreeName>
+          <TreeName>Arcane Archer</TreeName>
+          <TreeName>Deepwood Stalker</TreeName>
+          <TreeName>Tempest</TreeName>
+          <TreeName>Arcanotechnician</TreeName>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeName>Renegade Mastermaker</TreeName>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Arcane Trickster</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>28</SnapshotIntelligence>
+          <SnapshotWisdom>8</SnapshotWisdom>
+          <SnapshotDexterity>18</SnapshotDexterity>
+          <SnapshotConstitution>18</SnapshotConstitution>
+          <SnapshotCharisma>8</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Intelligence</Level4>
+        <Level8>Intelligence</Level8>
+        <Level12>Intelligence</Level12>
+        <Level16>Intelligence</Level16>
+        <Level20>Intelligence</Level20>
+        <Level24>Intelligence</Level24>
+        <Level28>Intelligence</Level28>
+        <Level32>Intelligence</Level32>
+        <Level36>Intelligence</Level36>
+        <Level40>Intelligence</Level40>
+      </Build>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Ranger</Class1>
+        <Class2>Artificer</Class2>
+        <Class3>Rogue</Class3>
+        <AbilitySpend>
+          <Champion/>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>8</DexSpend>
+          <ConSpend>6</ConSpend>
+          <IntSpend>10</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>32</SkillPointsAvailable>
+          <SkillPointsSpent>32</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Point Blank Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>8</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Concentration</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Repair</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>13</SkillPointsAvailable>
+          <SkillPointsSpent>11</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Dodge</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>13</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Undead</FeatName>
+            <Type>Favored Enemy</Type>
+            <LevelTrainedAt>4</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Mobility</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Shot on the Run</FeatName>
+            <Type>Artificer Bonus Feat</Type>
+            <LevelTrainedAt>7</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>11</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Ranged Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Plant</FeatName>
+            <Type>Favored Enemy</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>11</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Insightful Reflexes</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>10</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>13</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Evil Outsider</FeatName>
+            <Type>Favored Enemy</Type>
+            <LevelTrainedAt>16</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Ranger</Class>
+          <SkillPointsAvailable>13</SkillPointsAvailable>
+          <SkillPointsSpent>11</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Nimble Fingers</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>15</SkillPointsAvailable>
+          <SkillPointsSpent>14</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>15</SkillPointsAvailable>
+          <SkillPointsSpent>14</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
             <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Holy Strike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Combat Archery</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doubleshot</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Harbinger of Chaos</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Watchful Eye</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Aim</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>32</LevelTrainedAt>
           </TrainedFeat>
@@ -14982,6 +16028,6 @@
     </Life>
     <GuildLevel>200</GuildLevel>
     <ActiveLifeIndex>0</ActiveLifeIndex>
-    <ActiveBuildIndex>1</ActiveBuildIndex>
+    <ActiveBuildIndex>2</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
