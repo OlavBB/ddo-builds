@@ -20636,7 +20636,7 @@
           <TreeName>Fury of the Wild</TreeName>
           <TreeName>Fatesinger</TreeName>
           <TreeName>Shadowdancer</TreeName>
-          <TreeName>No selection</TreeName>
+          <TreeName>Divine Crusader</TreeName>
           <Tier5Tree>Fatesinger</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
@@ -21099,12 +21099,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -23501,12 +23501,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -24653,12 +24653,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -25669,12 +25669,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -25690,7 +25690,7 @@
         <Level40>Strength</Level40>
       </Build>
       <Build version="1">
-        <Level>34</Level>
+        <Level>33</Level>
         <Class1>Dragon Lord</Class1>
         <Class2>Bard</Class2>
         <Class3>Rogue</Class3>
@@ -26179,16 +26179,6 @@
             <FeatName>Greater Weapon Specialization: Slashing Weapons</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>32</LevelTrainedAt>
-          </TrainedFeat>
-        </LevelTraining>
-        <LevelTraining>
-          <Class>Legendary</Class>
-          <SkillPointsAvailable>0</SkillPointsAvailable>
-          <SkillPointsSpent>0</SkillPointsSpent>
-          <TrainedFeat>
-            <FeatName>Titan's Blood</FeatName>
-            <Type>Epic Destiny Feat</Type>
-            <LevelTrainedAt>33</LevelTrainedAt>
           </TrainedFeat>
         </LevelTraining>
         <ActiveStances>
@@ -26681,12 +26671,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -26704,7 +26694,7 @@
     </Life>
     <GuildLevel>198</GuildLevel>
     <ApplyGuildBuffs>1</ApplyGuildBuffs>
-    <ActiveLifeIndex>7</ActiveLifeIndex>
-    <ActiveBuildIndex>2</ActiveBuildIndex>
+    <ActiveLifeIndex>10</ActiveLifeIndex>
+    <ActiveBuildIndex>1</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>

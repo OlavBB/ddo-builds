@@ -21099,12 +21099,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -23501,12 +23501,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -24653,12 +24653,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -25669,12 +25669,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>44</SnapshotStrength>
-          <SnapshotIntelligence>25</SnapshotIntelligence>
-          <SnapshotWisdom>24</SnapshotWisdom>
-          <SnapshotDexterity>21</SnapshotDexterity>
-          <SnapshotConstitution>31</SnapshotConstitution>
-          <SnapshotCharisma>22</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -25919,7 +25919,7 @@
             <LevelTrainedAt>11</LevelTrainedAt>
           </TrainedFeat>
           <TrainedFeat>
-            <FeatName>Offhand Versatility</FeatName>
+            <FeatName>Improved Shield Bash</FeatName>
             <Type>Standard</Type>
             <LevelTrainedAt>11</LevelTrainedAt>
           </TrainedFeat>
@@ -26681,12 +26681,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>42</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>22</SnapshotWisdom>
-          <SnapshotDexterity>20</SnapshotDexterity>
-          <SnapshotConstitution>30</SnapshotConstitution>
-          <SnapshotCharisma>20</SnapshotCharisma>
+          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>23</SnapshotDexterity>
+          <SnapshotConstitution>29</SnapshotConstitution>
+          <SnapshotCharisma>17</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -26704,7 +26704,7 @@
     </Life>
     <GuildLevel>198</GuildLevel>
     <ApplyGuildBuffs>1</ApplyGuildBuffs>
-    <ActiveLifeIndex>7</ActiveLifeIndex>
-    <ActiveBuildIndex>2</ActiveBuildIndex>
+    <ActiveLifeIndex>10</ActiveLifeIndex>
+    <ActiveBuildIndex>1</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
