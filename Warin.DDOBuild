@@ -26019,7 +26019,7 @@
             <LevelTrainedAt>17</LevelTrainedAt>
           </TrainedFeat>
           <TrainedFeat>
-            <FeatName>Weapon Specialization: Slashing Weapons</FeatName>
+            <FeatName>Weapon Finesse</FeatName>
             <Type>Fighter Bonus Feat</Type>
             <LevelTrainedAt>17</LevelTrainedAt>
           </TrainedFeat>
@@ -26151,7 +26151,7 @@
             <LevelTrainedAt>29</LevelTrainedAt>
           </TrainedFeat>
           <TrainedFeat>
-            <FeatName>Epic Damage Reduction</FeatName>
+            <FeatName>Tactical Supremacy</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>29</LevelTrainedAt>
           </TrainedFeat>
@@ -26176,7 +26176,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Greater Weapon Specialization: Slashing Weapons</FeatName>
+            <FeatName>Weapon Specialization: Slashing Weapons</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>32</LevelTrainedAt>
           </TrainedFeat>
