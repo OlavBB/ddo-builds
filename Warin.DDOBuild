@@ -6679,7 +6679,7 @@
           <SkillPointsAvailable>0</SkillPointsAvailable>
           <SkillPointsSpent>0</SkillPointsSpent>
           <TrainedFeat>
-            <FeatName>Epic Spell Focus: Transmutation</FeatName>
+            <FeatName>Epic Spell Focus</FeatName>
             <Type>Epic Feat</Type>
             <LevelTrainedAt>29</LevelTrainedAt>
           </TrainedFeat>
