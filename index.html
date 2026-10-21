@@ -126,8 +126,11 @@ async function init() {
   try {
     const resp = await fetch('builds.json');
     if (!resp.ok) throw new Error('Failed to load builds.json');
-    const files = await resp.json();
-    buildFiles = files.filter(f => f.endsWith('.DDOBuild'));
+    const entries = await resp.json();
+    // Accept both the generated summaries and a plain list of file names
+    buildFiles = entries
+      .map(e => typeof e === 'string' ? { file: e } : e)
+      .filter(e => e.file && e.file.endsWith('.DDOBuild'));
     renderFileList();
   } catch(e) {
     $('#loading').innerHTML = '<div class="error">Could not load builds.<br><small>' + e.message + '</small></div>';
@@ -141,36 +144,54 @@ function renderFileList() {
     listEl.innerHTML = '<div class="empty-msg">No builds found.</div>';
     return;
   }
-  const promises = buildFiles.map(async (file) => {
-    try { return { file, xml: await fetchBuild(file) }; }
-    catch(e) { return { file, error: e.message }; }
-  });
-  Promise.all(promises).then(results => {
-    listEl.innerHTML = '';
-    results.forEach(r => {
-      const card = document.createElement('div');
-      card.className = 'build-card';
-      if (r.error) {
-        card.innerHTML = '<h2>' + esc(cleanName(r.file)) + '</h2><div class="meta">Error loading</div>';
-      } else {
-        const lives = r.xml.querySelectorAll('Character > Life');
-        const liveCount = lives.length;
-        const life = lives[0];
-        const name = life ? gt(life, 'Name') : '';
-        const race = life ? gt(life, 'Race') : '';
-        const firstBuild = life ? life.querySelector(':scope > Build') : null;
-        const level = firstBuild ? gt(firstBuild, 'Level') : '?';
-        const classLine = firstBuild ? getClassLine(firstBuild) : '';
-        card.innerHTML = '<h2>' + esc(name || cleanName(r.file))
-          + (liveCount > 1 ? '<span class="badge badge-lives">' + liveCount + ' lives</span>' : '')
-          + '</h2>'
-          + '<div class="meta">' + esc(race) + ' &middot; Level ' + esc(level) + '</div>'
-          + '<div class="classes">' + esc(classLine) + '</div>';
-        card.onclick = () => openFile(r.file, r.xml);
-      }
-      listEl.appendChild(card);
+  listEl.innerHTML = '';
+  buildFiles.forEach(entry => {
+    const card = document.createElement('div');
+    card.className = 'build-card';
+    listEl.appendChild(card);
+    if (entry.error) {
+      card.innerHTML = '<h2>' + esc(cleanName(entry.file)) + '</h2><div class="meta">Error loading</div>';
+    } else if ('lives' in entry) {
+      fillFileCard(card, entry);
+    } else {
+      // Plain file name without summary: fall back to parsing the XML
+      card.innerHTML = '<h2>' + esc(cleanName(entry.file)) + '</h2><div class="meta">Loading...</div>';
+      fetchBuild(entry.file)
+        .then(xml => fillFileCard(card, summarizeXml(entry.file, xml)))
+        .catch(() => { card.querySelector('.meta').textContent = 'Error loading'; });
+    }
+    card.addEventListener('click', async () => {
+      const meta = card.querySelector('.meta');
+      let prev = meta.textContent;
+      meta.textContent = 'Loading...';
+      try { openFile(entry.file, await fetchBuild(entry.file)); }
+      catch(e) { prev = 'Error loading'; }
+      finally { meta.textContent = prev; }
     });
   });
+}
+
+function fillFileCard(card, s) {
+  card.innerHTML = '<h2>' + esc(s.name || cleanName(s.file))
+    + (s.lives > 1 ? '<span class="badge badge-lives">' + s.lives + ' lives</span>' : '')
+    + '</h2>'
+    + '<div class="meta">' + esc(s.race) + ' &middot; Level ' + esc(s.level || '?')
+    + (s.updated ? ' &middot; ' + esc(s.updated.slice(0, 10)) : '') + '</div>'
+    + '<div class="classes">' + esc(s.classes) + '</div>';
+}
+
+function summarizeXml(file, xml) {
+  const lives = xml.querySelectorAll('Character > Life');
+  const life = lives[0];
+  const firstBuild = life ? life.querySelector(':scope > Build') : null;
+  return {
+    file,
+    name: life ? gt(life, 'Name') : '',
+    race: life ? gt(life, 'Race') : '',
+    level: firstBuild ? gt(firstBuild, 'Level') : '',
+    classes: firstBuild ? getClassLine(firstBuild) : '',
+    lives: lives.length
+  };
 }
 
 async function fetchBuild(file) {
