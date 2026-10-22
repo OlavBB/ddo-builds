@@ -16016,11 +16016,11 @@
             <Name/>
           </ArtifactFiligree>
           <SnapshotStrength>9</SnapshotStrength>
-          <SnapshotIntelligence>28</SnapshotIntelligence>
-          <SnapshotWisdom>8</SnapshotWisdom>
-          <SnapshotDexterity>18</SnapshotDexterity>
-          <SnapshotConstitution>18</SnapshotConstitution>
-          <SnapshotCharisma>8</SnapshotCharisma>
+          <SnapshotIntelligence>14</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>31</SnapshotDexterity>
+          <SnapshotConstitution>16</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -17567,12 +17567,438 @@
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
           <TreeName>Elf</TreeName>
-          <TreeName>Divine Disciple</TreeName>
-          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Horizon Walker</TreeName>
+          <TreeName>Deepwood Stalker</TreeName>
           <TreeName>Warpriest</TreeName>
           <TreeName>Dark Hunter</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Inquisitive</TreeName>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>9</SnapshotStrength>
+          <SnapshotIntelligence>14</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>31</SnapshotDexterity>
+          <SnapshotConstitution>16</SnapshotConstitution>
+          <SnapshotCharisma>10</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Dexterity</Level4>
+        <Level8>Dexterity</Level8>
+        <Level12>Dexterity</Level12>
+        <Level16>Dexterity</Level16>
+        <Level20>Dexterity</Level20>
+        <Level24>Dexterity</Level24>
+        <Level28>Dexterity</Level28>
+        <Level32>Dexterity</Level32>
+        <Level36>Dexterity</Level36>
+        <Level40>Dexterity</Level40>
+      </Build>
+      <Build version="1">
+        <Level>36</Level>
+        <Class1>Favored Soul</Class1>
+        <Class2>Dark Hunter</Class2>
+        <Class3>Fighter</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>10</DexSpend>
+          <ConSpend>8</ConSpend>
+          <IntSpend>4</IntSpend>
+          <WisSpend>6</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Dark Hunter</Class>
+          <SkillPointsAvailable>28</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Aberration</FeatName>
+            <Type>Favored Enemy </Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dark Hunter</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Point Blank Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Precise Shot</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Follower of the Silver Flame</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>3</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Knowledge of Battle</FeatName>
+            <Type>Battle Feat</Type>
+            <LevelTrainedAt>4</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Child of Faith</FeatName>
+            <Type>Child Of</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Quicken Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Energy Absorption: Fire</FeatName>
+            <Type>Energy Resistance</Type>
+            <LevelTrainedAt>7</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Manyshot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Search the Soul</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Stout of Heart</FeatName>
+            <Type>Heart Feat</Type>
+            <LevelTrainedAt>9</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Ranged Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Energy Absorption: Cold</FeatName>
+            <Type>Energy Resistance</Type>
+            <LevelTrainedAt>12</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Precise Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Beloved of the Divine</FeatName>
+            <Type>Beloved Of</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Empower Healing Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Energy Absorption: Electricity</FeatName>
+            <Type>Energy Resistance</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Favored Soul</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Combat Archery</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Pierce Cold Iron</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doubleshot</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Watchful Eye</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Harbinger of Chaos</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Trick Shot</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Pierce Adamantine</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Trick Shot</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Aim</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>35</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Elf</Stances>
+          <Stances>Chaotic</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Elf</TreeName>
+          <TreeName>Horizon Walker</TreeName>
           <TreeName>Deepwood Stalker</TreeName>
-          <TreeName>Tempest</TreeName>
+          <TreeName>Kensei</TreeName>
+          <TreeName>Dark Hunter</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Inquisitive</TreeName>
         </Enhancement_SelectedTrees>
         <Reaper_SelectedTrees>
           <TreeName>Dire Thaumaturge</TreeName>
@@ -17637,6 +18063,6 @@
     </Life>
     <GuildLevel>200</GuildLevel>
     <ActiveLifeIndex>7</ActiveLifeIndex>
-    <ActiveBuildIndex>0</ActiveBuildIndex>
+    <ActiveBuildIndex>1</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
