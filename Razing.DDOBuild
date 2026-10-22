@@ -87,6 +87,16 @@
         <Type>EpicDestinyTree</Type>
         <LevelTrainedAt>0</LevelTrainedAt>
       </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Inherent Universal Action Point</FeatName>
+        <Type>Special</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Inherent Racial Action Point</FeatName>
+        <Type>Special</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
     </SpecialFeats>
     <SkillTomes>
       <Balance>0</Balance>
@@ -1140,12 +1150,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>17</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>17</SnapshotWisdom>
-          <SnapshotDexterity>23</SnapshotDexterity>
-          <SnapshotConstitution>23</SnapshotConstitution>
-          <SnapshotCharisma>36</SnapshotCharisma>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>26</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>39</SnapshotDexterity>
+          <SnapshotConstitution>22</SnapshotConstitution>
+          <SnapshotCharisma>26</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -1162,7 +1172,7 @@
       </Build>
     </Life>
     <Life version="1">
-      <Name/>
+      <Name>Dex</Name>
       <Race>Drow</Race>
       <Alignment>Lawful Good</Alignment>
       <SpecialFeats>
@@ -1308,11 +1318,6 @@
           <TrainedFeat>
             <FeatName>Dodge</FeatName>
             <Type>Standard</Type>
-            <LevelTrainedAt>2</LevelTrainedAt>
-          </TrainedFeat>
-          <TrainedFeat>
-            <FeatName>Follower of the Undying Court</FeatName>
-            <Type>Follower Of</Type>
             <LevelTrainedAt>2</LevelTrainedAt>
           </TrainedFeat>
           <TrainedSkill>
@@ -1848,7 +1853,6 @@
           <TreeName>Knight of the Chalice</TreeName>
           <TreeName>Arcanotechnician</TreeName>
           <TreeName>Renegade Mastermaker</TreeName>
-          <Tier5Tree>Inquisitive</Tier5Tree>
         </Enhancement_SelectedTrees>
         <Reaper_SelectedTrees>
           <TreeName>Dire Thaumaturge</TreeName>
@@ -1941,31 +1945,6 @@
           </TrainedEnhancement>
           <TrainedEnhancement>
             <EnhancementName>InquisitiveCore5</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>InquisitiveNoHoldsBarred</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>InquisitiveInquisitorsPath</EnhancementName>
-            <Selection>Jaded</Selection>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>InquisitiveDiplomaticImmunity</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>InquisitiveImprovedUncannyDodge</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>InquisitiveCore6</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
         </EnhancementSpendInTree>
@@ -2100,12 +2079,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>17</SnapshotStrength>
-          <SnapshotIntelligence>24</SnapshotIntelligence>
-          <SnapshotWisdom>17</SnapshotWisdom>
-          <SnapshotDexterity>23</SnapshotDexterity>
-          <SnapshotConstitution>23</SnapshotConstitution>
-          <SnapshotCharisma>36</SnapshotCharisma>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>26</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>39</SnapshotDexterity>
+          <SnapshotConstitution>22</SnapshotConstitution>
+          <SnapshotCharisma>26</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -3813,10 +3792,10 @@
           <Stances>Drow</Stances>
         </ActiveStances>
         <Destiny_SelectedTrees>
-          <TreeName>No selection</TreeName>
-          <TreeName>No selection</TreeName>
-          <TreeName>No selection</TreeName>
-          <TreeName>No selection</TreeName>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
           <Tier5Tree>Shiradi Champion</Tier5Tree>
         </Destiny_SelectedTrees>
         <Enhancement_SelectedTrees>
@@ -4078,12 +4057,12 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>16</SnapshotStrength>
-          <SnapshotIntelligence>23</SnapshotIntelligence>
-          <SnapshotWisdom>16</SnapshotWisdom>
-          <SnapshotDexterity>22</SnapshotDexterity>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>26</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>39</SnapshotDexterity>
           <SnapshotConstitution>22</SnapshotConstitution>
-          <SnapshotCharisma>35</SnapshotCharisma>
+          <SnapshotCharisma>26</SnapshotCharisma>
         </EquippedGear>
         <FavorFeats/>
         <Notes/>
@@ -4098,9 +4077,1043 @@
         <Level36>Charisma</Level36>
         <Level40>Charisma</Level40>
       </Build>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Paladin</Class1>
+        <Class2>Artificer</Class2>
+        <Class3>Dark Hunter</Class3>
+        <AbilitySpend>
+          <AvailableSpend>32</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>9</DexSpend>
+          <ConSpend>6</ConSpend>
+          <IntSpend>6</IntSpend>
+          <WisSpend>1</WisSpend>
+          <ChaSpend>6</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>28</SkillPointsAvailable>
+          <SkillPointsSpent>24</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Point Blank Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Follower of the Silver Flame</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>6</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precise Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Silver Flame Exorcism</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>7</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dark Hunter</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Favored Enemy: Monstrous Humanoid</FeatName>
+            <Type>Favored Enemy </Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Ranged Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>9</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Precise Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dark Hunter</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>9</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Manyshot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Child of Faith</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Paladin</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Artificer</Class>
+          <SkillPointsAvailable>10</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Focus: Ranged Weapons</FeatName>
+            <Type>Artificer Bonus Feat</Type>
+            <LevelTrainedAt>19</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Holy Strike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doubleshot</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Combat Archery</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Embodiment of Law</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Watchful Eye</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Enhanced Elemental Dice</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Aim</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Good</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Aura of Good</Stances>
+          <Stances>Aura of Courage</Stances>
+          <Stances>Drow</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+          <Tier5Tree>Shiradi Champion</Tier5Tree>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Drow</TreeName>
+          <TreeName>Horizon Walker</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Inquisitive</TreeName>
+          <TreeName>Knight of the Chalice</TreeName>
+          <TreeName>No selection</TreeName>
+          <TreeName>Deepwood Stalker</TreeName>
+          <Tier5Tree>Horizon Walker</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Feydark Illusionist</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Knight of the Chalice</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>KotCCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCHolyCombatantI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCExtraSmite</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCExaltedCleave</EnhancementName>
+            <Selection>Exalted Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCCriticalMastery</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCAdeptCombatant</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCMeleeRangedPowerBoost</EnhancementName>
+            <Selection>Melee/Ranged Power</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCExaltedSmite</EnhancementName>
+            <Selection>Exalted Smite (Ranged)</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCHolyCombatantII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCKnightsTraining</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KotCCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Horizon Walker</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWEyeForAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWOpeningShot</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWSkills</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWConjureArrow</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWFavoredEnemy</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWWalkerTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWTakeTheOpening</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWProtectionFromEvilAndGood</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWTenaciousHunter</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWHuntersFocus</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWNoStepMissed</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWAbilityI</EnhancementName>
+            <Selection>Dexterity</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWScattershot</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCornerTheQuarry</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWWalkerTrainingII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWAbilityII</EnhancementName>
+            <Selection>Dexterity</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWFeywildAttunement</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWBanishTheQuarry</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWMistyStep</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWPowershot</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWImprovedArchersFocus</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HWCore6</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>UndeadHunter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniAcrobatic</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniHasteBoost</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Deepwood Stalker</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Battle Engineer</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Drow</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DrowCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Inquisitive</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveEyeForAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveSkills</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>26</SnapshotIntelligence>
+          <SnapshotWisdom>19</SnapshotWisdom>
+          <SnapshotDexterity>39</SnapshotDexterity>
+          <SnapshotConstitution>22</SnapshotConstitution>
+          <SnapshotCharisma>26</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Dexterity</Level4>
+        <Level8>Dexterity</Level8>
+        <Level12>Dexterity</Level12>
+        <Level16>Dexterity</Level16>
+        <Level20>Dexterity</Level20>
+        <Level24>Dexterity</Level24>
+        <Level28>Dexterity</Level28>
+        <Level32>Dexterity</Level32>
+        <Level36>Dexterity</Level36>
+        <Level40>Dexterity</Level40>
+      </Build>
     </Life>
     <ApplyGuildBuffs>1</ApplyGuildBuffs>
-    <ActiveLifeIndex>0</ActiveLifeIndex>
-    <ActiveBuildIndex>0</ActiveBuildIndex>
+    <ActiveLifeIndex>1</ActiveLifeIndex>
+    <ActiveBuildIndex>3</ActiveBuildIndex>
   </Character>
 </DDOBuilderCharacterData>
