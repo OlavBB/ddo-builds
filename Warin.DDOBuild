@@ -26209,7 +26209,7 @@
           <TreeName>Half-Orc</TreeName>
           <TreeName>Dragon Lord</TreeName>
           <TreeName>Swashbuckler</TreeName>
-          <TreeName>Ravager (Fighter)</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
           <TreeName>Warchanter</TreeName>
           <TreeName>Harper Agent</TreeName>
           <TreeName>Falconry</TreeName>
@@ -26220,174 +26220,6 @@
           <TreeName>Dread Adversary</TreeName>
           <TreeName>Grim Barricade</TreeName>
         </Reaper_SelectedTrees>
-        <EnhancementSpendInTree>
-          <TreeName>Dragon Lord</TreeName>
-          <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordCore1</EnhancementName>
-            <Selection>Soul of the Blue Dragon</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordBattlefieldTacticianI</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonsProtectionI</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordMartialSuperioirity</EnhancementName>
-            <Selection>Dragon Lord: Martial Superiority: Strike Twice</Selection>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonslayer</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordActionBoost</EnhancementName>
-            <Selection>Action Boost: Haste</Selection>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordBattlefieldTacticianII</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonsProtectionII</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordCore2</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordMightOrOutburst</EnhancementName>
-            <Selection>Might in Order</Selection>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonsRoar</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonsProtectionIII</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordBattlefieldTacticianIII</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordCore3</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordAbilityI</EnhancementName>
-            <Selection>+1 Strength</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordBattlefieldTacticianIV</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordDragonsProtectionIV</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordUntouchableSoul</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordCore4</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordSoulScales</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordTacticalCommander</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordImprovedDragonsRoar</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordFlightOfKings</EnhancementName>
-            <Ranks>1</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DragonLordConqueror</EnhancementName>
-            <Ranks>2</Ranks>
-            <IsTier5/>
-          </TrainedEnhancement>
-        </EnhancementSpendInTree>
-        <EnhancementSpendInTree>
-          <TreeName>Swashbuckler</TreeName>
-          <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>SBCore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBBlowByBlow</EnhancementName>
-            <Selection>Blow By Blow</Selection>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBOnYourToes</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBDeflectArrows</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBEnPointe</EnhancementName>
-            <Ranks>2</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBCore2</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>SBSwashbucklingStyle</EnhancementName>
-            <Selection>Skirmisher</Selection>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-        </EnhancementSpendInTree>
-        <EnhancementSpendInTree>
-          <TreeName>Ravager (Fighter)</TreeName>
-          <TreeVersion>1</TreeVersion>
-          <TrainedEnhancement>
-            <EnhancementName>DLRavCore1</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DLRavHardyRage</EnhancementName>
-            <Ranks>3</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DLRavDoYouLikePain</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DLRavCore2</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
-            <EnhancementName>DLRavILikePain</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-        </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Assassin</TreeName>
           <TreeVersion>1</TreeVersion>
@@ -26424,6 +26256,15 @@
             <EnhancementName>HarperEnchantment</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>TravelersToughness</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HarperSeizeTheMoment</EnhancementName>
+            <Selection>Seize the Moment</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <EnhancementSpendInTree>
           <TreeName>Half-Orc</TreeName>
@@ -26441,6 +26282,14 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
+            <EnhancementName>HalfOrcCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>HalfOrcCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
             <EnhancementName>HalfOrcOrcishWeaponTrainingI</EnhancementName>
             <Ranks>1</Ranks>
           </TrainedEnhancement>
@@ -26449,12 +26298,8 @@
             <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
-            <EnhancementName>HalfOrcOrcishRage</EnhancementName>
-            <Ranks>1</Ranks>
-          </TrainedEnhancement>
-          <TrainedEnhancement>
             <EnhancementName>HalfOrcExtraActionBoost</EnhancementName>
-            <Ranks>2</Ranks>
+            <Ranks>1</Ranks>
           </TrainedEnhancement>
           <TrainedEnhancement>
             <EnhancementName>HalfOrcOrcishWeaponTrainingIII</EnhancementName>
@@ -26472,6 +26317,171 @@
         <EnhancementSpendInTree>
           <TreeName>Falconry</TreeName>
           <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore1</EnhancementName>
+            <Selection>Soul of the Green Dragon</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMartialSuperioirity</EnhancementName>
+            <Selection>Dragon Lord: Martial Superiority: Strike Twice</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonslayer</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordActionBoost</EnhancementName>
+            <Selection>Action Boost: Haste</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMightOrOutburst</EnhancementName>
+            <Selection>Might in Order</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordAbilityI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordUntouchableSoul</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordAbilityII</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordConqueror</EnhancementName>
+            <Ranks>2</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordFlightOfKings</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordImprovedDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordTacticalCommander</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordSoulScales</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Swashbuckler</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>SBCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBBlowByBlow</EnhancementName>
+            <Selection>Blow By Blow</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBOnYourToes</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBDeflectArrows</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBFastMovement</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>SBSwashbucklingStyle</EnhancementName>
+            <Selection>Skirmisher</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>UndeadHunter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
         </EnhancementSpendInTree>
         <DestinySpendInTree>
           <TreeName>Legendary Dreadnought</TreeName>
@@ -26681,7 +26691,7 @@
           <ArtifactFiligree>
             <Name/>
           </ArtifactFiligree>
-          <SnapshotStrength>41</SnapshotStrength>
+          <SnapshotStrength>43</SnapshotStrength>
           <SnapshotIntelligence>17</SnapshotIntelligence>
           <SnapshotWisdom>19</SnapshotWisdom>
           <SnapshotDexterity>23</SnapshotDexterity>
